@@ -1,6 +1,18 @@
 # ChangeLog for Pod::Simple dist
 #---------------------------------------------------------------------------
 
+	* Release 3.17
+
+	Documented tertiary methods. Patch from Shawn H Corey.
+
+	Added "backlink" option to Pod::Simple::XHTML. Thanks to Marc Green
+	for the pull request.
+
+	Typos fixed in Pod::Simple::HTMLBatch. Reported by Shawn H Corey.
+
+	Fixed quoting of value returned by a "strip_verbatim_indent()"
+	code reference so that regex meta characters are properly escaped.
+
 2011-03-14   David E. Wheeler <david@justatheory.org>
 	* Release 3.16
 
@@ -28,7 +40,7 @@
 	spelled "=encode"). Thanks to "TTY" for the patch. (RT #24820).
 
 2010-11-11   David E. Wheeler <david@justatheory.org>
-	* Release 3.16
+	* Release 3.17
 
 	Removed "perlpod.pod" and "perlpodspec.pod". These now just live
 	in the Perl core.
