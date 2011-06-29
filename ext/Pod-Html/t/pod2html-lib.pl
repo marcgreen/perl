@@ -2,7 +2,6 @@ require Cwd;
 require Pod::Html;
 require Config;
 use File::Spec::Functions;
-use 5.14.0;
 
 sub convert_n_test {
     my($podfile, $testname, @p2h_args) = @_;
@@ -24,6 +23,7 @@ sub convert_n_test {
         "--podpath=t",
         "--htmlroot=/",
         "--podroot=$cwd",
+        "--quiet",
         @p2h_args,
     );
 
@@ -47,25 +47,11 @@ sub convert_n_test {
     }
 
     ok($expect eq $result, $testname) or do {
-	my $diff = '/bin/diff';
-	-x $diff or $diff = '/usr/bin/diff';
-	if (-x $diff) {
-	    my $expectfile = "pod2html-lib.tmp";
-	    open my $tmpfile, ">", $expectfile or die $!;
-	    print $tmpfile $expect;
-	    close $tmpfile;
-	    my $diffopt = $^O eq 'linux' ? 'u' : 'c';
-	    open my $diff, "diff -$diffopt $expectfile $outfile |" or die $!;
-	    print "# $_" while <$diff>;
-	    close $diff;
-	    unlink $expectfile;
-	}
+    	warn "\nExpected:\n$expect\n\nResult:\n$result\n\n";
     };
 
     # pod2html creates these
-#    1 while unlink $outfile;
-    1 while unlink "pod2htmd.tmp";
-    1 while unlink "pod2htmi.tmp";
+    1 while unlink $outfile;
 }
 
 1;

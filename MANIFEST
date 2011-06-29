@@ -3529,8 +3529,24 @@ ext/PerlIO-via/hints/aix.pl	Hint for PerlIO::via for named architecture
 ext/PerlIO-via/t/via.t		See if PerlIO::via works
 ext/PerlIO-via/via.pm		PerlIO layer for layers in perl
 ext/PerlIO-via/via.xs		PerlIO layer for layers in perl
-ext/Pod-Html/Html.pm		Convert POD data to HTML
-ext/Pod-Html/pod2html.PL	Precursor for translator to turn pod into HTML
+ext/Pod-Html/lib/Pod/Html.pm		Convert POD data to HTML
+ext/Pod-Html/lib/pod2html.PL	Precursor for translator to turn pod into HTML
+ext/Pod-Html/t/htmlcrossref.t	pod2html cross reference test
+ext/Pod-Html/t/htmlcrossref.pod	pod2html cross reference test input data
+ext/Pod-Html/t/htmldir.t		pod2html --htmldir test 1
+ext/Pod-Html/t/htmldir.pod		pod2html --htmldir test input data 1
+ext/Pod-Html/t/htmldir2.t		pod2html --htmldir test 2
+ext/Pod-Html/t/htmldir2.pod		pod2html --htmldir test input data 2
+ext/Pod-Html/t/htmldir3.t		pod2html --htmldir test 3
+ext/Pod-Html/t/htmldir3.pod		pod2html --htmldir test input data 3
+ext/Pod-Html/t/htmldir4.t		pod2html --htmldir test 4
+ext/Pod-Html/t/htmldir4.pod		pod2html --htmldir test input data 4
+ext/Pod-Html/t/htmldir5.t		pod2html --htmldir test 5
+ext/Pod-Html/t/htmldir5.pod		pod2html --htmldir test input data 5
+ext/Pod-Html/t/htmlfeature.t	pod2html feature set test 1
+ext/Pod-Html/t/htmlfeature.pod	pod2html feature set test input data 1
+ext/Pod-Html/t/htmlfeature2.t	pod2html feature set test 2
+ext/Pod-Html/t/htmlfeature2.pod	pod2html feature set test input data 2
 ext/Pod-Html/t/htmlescp.pod	pod2html escape test input data
 ext/Pod-Html/t/htmlescp.t	pod2html escape test
 ext/Pod-Html/t/htmllink.pod	pod2html link test input data
@@ -3538,6 +3554,8 @@ ext/Pod-Html/t/htmllink.t	pod2html link test
 ext/Pod-Html/t/htmlview.pod	pod2html render test input data
 ext/Pod-Html/t/htmlview.t	pod2html render test
 ext/Pod-Html/t/pod2html-lib.pl	pod2html testing library
+ext/Pod-Html/test.lib/perlpodspec.pod 	test POD document
+ext/Pod-Html/test.lib/perlvar.pod 		test POD document
 ext/POSIX/hints/bsdos.pl	Hint for POSIX for named architecture
 ext/POSIX/hints/dynixptx.pl	Hint for POSIX for named architecture
 ext/POSIX/hints/freebsd.pl	Hint for POSIX for named architecture
