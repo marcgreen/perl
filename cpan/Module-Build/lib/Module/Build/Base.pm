@@ -3428,7 +3428,6 @@ sub htmlify_pods {
       $title .= " - $abstract" if $abstract;
 
       my @opts = (
-        '--flush',
         "--title=$title",
         "--podpath=$podpath",
         "--infile=$infile",
@@ -3438,7 +3437,7 @@ sub htmlify_pods {
       );
 
       if ( eval{Pod::Html->VERSION(1.03)} ) {
-        push( @opts, ('--header', '--backlink=Back to Top') );
+        push( @opts, ('--header', '--backlink') );
       }
 
       $self->log_verbose("P::H::pod2html @opts\n");
