@@ -7,14 +7,16 @@ BEGIN {
 
 use strict;
 use Test::More tests => 1;
+use File::Spec::Functions;
 
 my $cwd = Cwd::cwd();
+my $htmldir = catdir $cwd, 't';
 
 convert_n_test("htmlfeature", "misc pod-html features", 
  "--backlink",
  "--css=style.css",
  "--header", # no styling b/c of --ccs
- "--htmldir=$cwd/t",
+ "--htmldir=$htmldir",
  "--noindex",
  "--podpath=t",
  "--podroot=$cwd",

@@ -6,6 +6,7 @@ BEGIN {
 
 use strict;
 use Test::More tests => 2;
+use File::Spec::Functions;
 
 use Cwd;
 
@@ -20,10 +21,12 @@ convert_n_test("htmldir4", "test --htmldir and --htmlroot 4a",
 
 seek DATA, $data_pos, 0; # to read <DATA> twice (expected output is the same)
 
+my $htmldir = catdir $cwd, 't';
+
 convert_n_test("htmldir4", "test --htmldir and --htmlroot 4b", 
  "--podpath=t",
  "--podroot=$cwd",
- "--htmldir=$cwd/t",
+ "--htmldir=$htmldir",
  "--norecurse",
 );
 

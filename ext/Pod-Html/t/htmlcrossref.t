@@ -6,6 +6,7 @@ BEGIN {
 
 use strict;
 use Test::More tests => 1;
+use File::Spec::Functions;
 
 use File::Spec;
 use Cwd;
@@ -15,8 +16,10 @@ use Cwd;
 # Remove root dir from path
 my $relcwd = substr(Cwd::cwd(), length(File::Spec->rootdir()));
 
+my $podpath = catdir($relcwd, 't') . ":" . catdir($relcwd, 'test.lib');
+
 convert_n_test("htmlcrossref", "html cross references", 
- "--podpath=$relcwd/t:$relcwd/test.lib",
+ "--podpath=$podpath",
  "--podroot=/",
  "--quiet",
 );
