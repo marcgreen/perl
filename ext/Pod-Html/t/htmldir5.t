@@ -11,7 +11,7 @@ use Cwd;
 
 my $cwd = Cwd::cwd();
 
-convert_n_test("htmldir5", "test --htmldir and --htmlroot 5a", 
+convert_n_test("htmldir5", "test --htmldir and --htmlroot 5", 
  "--podpath=t:test.lib",
  "--podroot=$cwd",
  "--htmldir=$cwd",

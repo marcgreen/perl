@@ -590,12 +590,15 @@ sub resolve_pod_page_link {
     # simplified, but then $url could be relative, not absolute. In an effort
     # to stick to the original Pod::Html, I want to keep $url absolute until
     # the test for Htmlfileurl ne '', in which it might be relativezed.
-    my $url = File::Spec->catdir($self->htmlroot, $path);
+    my $url = File::Spec::Unix->catfile($self->htmlroot, $path);
     if ($self->htmlfileurl ne '') {
         # then $self->htmlroot eq '' (by definition of htmlfileurl) so
         # $self->htmldir needs to be prepended to link to get the absolute path
         # that will be relativized
-        $url = relativize_url($self->htmldir.$url, $self->htmlfileurl);
+        $url = relativize_url(
+            File::Spec::Unix->catdir($self->htmldir, $url), 
+            $self->htmlfileurl
+        );
     }
 
     return $url . ".html$section";

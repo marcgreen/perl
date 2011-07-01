@@ -6,6 +6,7 @@ BEGIN {
 
 use strict;
 use Test::More tests => 2;
+use File::Spec::Functions;
 
 use File::Spec;
 use Cwd;
@@ -17,8 +18,10 @@ my $relcwd = substr(Cwd::cwd(), length(File::Spec->rootdir()));
 
 my $data_pos = tell DATA; # to read <DATA> twice
 
+my $podpath = catdir($relcwd, 't') . ":" . catfile($relcwd, 'test.lib');
+
 convert_n_test("htmldir", "test --htmldir and --htmlroot 1a", 
- "--podpath=$relcwd/t:$relcwd/test.lib",
+ "--podpath=$podpath",
  "--podroot=/",
 # "--podpath=t",
 # "--htmlroot=/test/dir",
@@ -27,10 +30,12 @@ convert_n_test("htmldir", "test --htmldir and --htmlroot 1a",
 
 seek DATA, $data_pos, 0; # to read <DATA> twice (expected output is the same)
 
+my $htmldir = catfile $relcwd, 't';
+
 convert_n_test("htmldir", "test --htmldir and --htmlroot 1b", 
  "--podpath=$relcwd",
  "--podroot=/",
- "--htmldir=$relcwd/t",
+ "--htmldir=$htmldir",
  "--htmlroot=/",
 );
 
