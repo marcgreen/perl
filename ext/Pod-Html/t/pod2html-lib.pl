@@ -1,12 +1,12 @@
 require Cwd;
 require Pod::Html;
 require Config;
-use File::Spec::Functions;
+use File::Spec::Functions  ':ALL';
 
 sub convert_n_test {
     my($podfile, $testname, @p2h_args) = @_;
 
-    my $cwd = Cwd::cwd();
+    my ($vol, $cwd) = splitpath(Cwd::cwd(), 1); # separate volume part
     # XXX Is there a better way to do this? I need a relative url to cwd because of
 	# --podpath and --podroot
 	# Remove root dir from path
@@ -22,7 +22,7 @@ sub convert_n_test {
         "--outfile=$outfile",
         "--podpath=t",
         "--htmlroot=/",
-        "--podroot=$cwd",
+        "--podroot=".catpath($vol,$cwd,''),
         @p2h_args,
     );
 

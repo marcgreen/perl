@@ -6,17 +6,17 @@ BEGIN {
 
 use strict;
 use Test::More tests => 2;
-use File::Spec::Functions;
+use File::Spec::Functions ':ALL';
 
 use Cwd;
 
-my $cwd = Cwd::cwd();
+my ($vol, $cwd) = splitpath(Cwd::cwd(), 1); # separate volume part
 my $data_pos = tell DATA; # to read <DATA> twice
 
 convert_n_test("htmldir4", "test --htmldir and --htmlroot 4a", 
  "--podpath=t",
  "--htmldir=t",
- "--outfile=t/htmldir4.html",
+ "--outfile=".catfile 't', 'htmldir4.html',
 );
 
 seek DATA, $data_pos, 0; # to read <DATA> twice (expected output is the same)
