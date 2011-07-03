@@ -11,10 +11,8 @@ use File::Spec::Functions;
 use File::Spec;
 use Cwd;
 
-# XXX Is there a better way to do this? I need a relative url to cwd because of
-# --podpath and --podroot
-# Remove root dir from path
-my $relcwd = substr(Cwd::cwd(), length(File::Spec->rootdir()));
+my ($v, $d) = splitpath(cwd(), 1);
+my $relcwd = substr($d, length(File::Spec->rootdir()));
 
 my $data_pos = tell DATA; # to read <DATA> twice
 
@@ -22,7 +20,7 @@ my $podpath = catdir($relcwd, 't') . ":" . catfile($relcwd, 'test.lib');
 
 convert_n_test("htmldir", "test --htmldir and --htmlroot 1a", 
  "--podpath=$podpath",
- "--podroot=/",
+ "--podroot=$v".File::Spec->rootdir,
 # "--podpath=t",
 # "--htmlroot=/test/dir",
  "--htmldir=t",
@@ -34,7 +32,7 @@ my $htmldir = catfile $relcwd, 't';
 
 convert_n_test("htmldir", "test --htmldir and --htmlroot 1b", 
  "--podpath=$relcwd",
- "--podroot=/",
+ "--podroot=$v".File::Spec->rootdir,
  "--htmldir=$htmldir",
  "--htmlroot=/",
 );
@@ -66,13 +64,13 @@ __DATA__
 
 <p>Normal text, a <a>link</a> to nowhere,</p>
 
-<p>a link to <a href="[CURRENTWORKINGDIRECTORY]/test.lib/perlvar.html">perlvar</a>,</p>
+<p>a link to <a href="/[RELCURRENTWORKINGDIRECTORY]/test.lib/perlvar.html">perlvar</a>,</p>
 
-<p><a href="[CURRENTWORKINGDIRECTORY]/t/htmlescp.html">htmlescp</a>,</p>
+<p><a href="/[RELCURRENTWORKINGDIRECTORY]/t/htmlescp.html">htmlescp</a>,</p>
 
-<p><a href="[CURRENTWORKINGDIRECTORY]/t/htmlfeature.html#Another-Head-1">&quot;Another Head 1&quot; in htmlfeature</a>,</p>
+<p><a href="/[RELCURRENTWORKINGDIRECTORY]/t/htmlfeature.html#Another-Head-1">&quot;Another Head 1&quot; in htmlfeature</a>,</p>
 
-<p>and another <a href="[CURRENTWORKINGDIRECTORY]/t/htmlfeature.html#Another-Head-1">&quot;Another Head 1&quot; in htmlfeature</a>.</p>
+<p>and another <a href="/[RELCURRENTWORKINGDIRECTORY]/t/htmlfeature.html#Another-Head-1">&quot;Another Head 1&quot; in htmlfeature</a>.</p>
 
 
 </body>

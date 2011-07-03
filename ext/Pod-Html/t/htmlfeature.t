@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w                                         # -*- perl -*-
-require Cwd;
+use Cwd;
 
 BEGIN {
     require "t/pod2html-lib.pl";
@@ -9,7 +9,7 @@ use strict;
 use Test::More tests => 1;
 use File::Spec::Functions;
 
-my $cwd = Cwd::cwd();
+my $cwd = cwd();
 my $htmldir = catdir $cwd, 't';
 
 convert_n_test("htmlfeature", "misc pod-html features", 

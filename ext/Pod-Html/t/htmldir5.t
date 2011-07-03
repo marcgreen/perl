@@ -6,10 +6,11 @@ BEGIN {
 
 use strict;
 use Test::More tests => 1;
+use File::Spec::Functions;
 
 use Cwd;
-
-my $cwd = Cwd::cwd();
+my $cwd = catdir cwd(); # catdir converts path separators to that of the OS
+                        # running the test
 
 convert_n_test("htmldir5", "test --htmldir and --htmlroot 5", 
  "--podpath=t:test.lib",

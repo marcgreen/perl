@@ -10,7 +10,7 @@ use File::Spec::Functions ':ALL';
 
 use Cwd;
 
-my ($vol, $cwd) = splitpath(Cwd::cwd(), 1); # separate volume part
+my $cwd = cwd();
 my $data_pos = tell DATA; # to read <DATA> twice
 
 convert_n_test("htmldir4", "test --htmldir and --htmlroot 4a", 
