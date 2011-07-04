@@ -21,6 +21,7 @@ sub convert_n_test {
         "--podpath=t",
         "--htmlroot=/",
         "--podroot=$cwd",
+        "--quiet",
         @p2h_args,
     );
 
