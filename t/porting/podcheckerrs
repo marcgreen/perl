@@ -1,0 +1,1557 @@
+1..1475
+ok 1 - POD of dist/Attribute-Handlers/lib/Attribute/Handlers.pm, excluding 19 not shown known potential problems
+ok 2 - POD of dist/autouse/lib/autouse.pm
+ok 3 - POD of dist/B-Deparse/Deparse.pm
+ok 4 - POD of dist/B-Lint/lib/B/Lint.pm
+ok 5 - POD of dist/B-Lint/lib/B/Lint/Debug.pm
+ok 6 - POD of dist/base/lib/base.pm
+ok 7 - POD of dist/base/lib/fields.pm, excluding 1 not shown known potential problems
+ok 8 - POD of dist/bignum/lib/bigint.pm, excluding 2 not shown known potential problems
+ok 9 - POD of dist/bignum/lib/bignum.pm, excluding 2 not shown known potential problems
+ok 10 - POD of dist/bignum/lib/bigrat.pm, excluding 1 not shown known potential problems
+ok 11 - POD of dist/constant/lib/constant.pm, excluding 2 not shown known potential problems
+ok 12 - POD of dist/Cwd/Cwd.pm
+ok 13 - POD of dist/Cwd/lib/File/Spec.pm, excluding 1 not shown known potential problems
+ok 14 - POD of dist/Cwd/lib/File/Spec/Cygwin.pm
+ok 15 - POD of dist/Cwd/lib/File/Spec/Epoc.pm
+ok 16 - POD of dist/Cwd/lib/File/Spec/Functions.pm
+ok 17 - POD of dist/Cwd/lib/File/Spec/Mac.pm, excluding 9 not shown known potential problems
+ok 18 - POD of dist/Cwd/lib/File/Spec/OS2.pm
+ok 19 - POD of dist/Cwd/lib/File/Spec/Unix.pm, excluding 1 not shown known potential problems
+ok 20 - POD of dist/Cwd/lib/File/Spec/VMS.pm, excluding 1 not shown known potential problems
+ok 21 - POD of dist/Cwd/lib/File/Spec/Win32.pm, excluding 1 not shown known potential problems
+ok 22 - POD of dist/Data-Dumper/Changes
+ok 23 - POD of dist/Data-Dumper/Dumper.pm, excluding 3 not shown known potential problems
+ok 24 - POD of dist/Data-Dumper/Todo
+ok 25 - POD of dist/Devel-SelfStubber/lib/Devel/SelfStubber.pm
+ok 26 - POD of dist/Dumpvalue/lib/Dumpvalue.pm
+ok 27 - POD of dist/Env/lib/Env.pm
+ok 28 - POD of dist/ExtUtils-CBuilder/lib/ExtUtils/CBuilder.pm
+ok 29 - POD of dist/ExtUtils-CBuilder/lib/ExtUtils/CBuilder/Platform/Windows.pm
+ok 30 - POD of dist/ExtUtils-Command/lib/ExtUtils/Command.pm
+ok 31 - POD of dist/ExtUtils-Install/lib/ExtUtils/Install.pm
+ok 32 - POD of dist/ExtUtils-Install/lib/ExtUtils/Installed.pm, excluding 2 not shown known potential problems
+ok 33 - POD of dist/ExtUtils-Install/lib/ExtUtils/Packlist.pm
+ok 34 - POD of dist/ExtUtils-Manifest/lib/ExtUtils/Manifest.pm
+ok 35 - POD of dist/ExtUtils-ParseXS/lib/ExtUtils/ParseXS.pm
+ok 36 - POD of dist/ExtUtils-ParseXS/lib/ExtUtils/xsubpp
+ok 37 - POD of dist/File-CheckTree/lib/File/CheckTree.pm
+ok 38 - POD of dist/Filter-Simple/lib/Filter/Simple.pm, excluding 1 not shown known potential problems
+ok 39 - POD of dist/I18N-Collate/lib/I18N/Collate.pm
+ok 40 - POD of dist/I18N-LangTags/lib/I18N/LangTags.pm, excluding 2 not shown known potential problems
+ok 41 - POD of dist/I18N-LangTags/lib/I18N/LangTags/Detect.pm
+ok 42 - POD of dist/I18N-LangTags/lib/I18N/LangTags/List.pm
+ok 43 - POD of dist/if/if.pm
+ok 44 - POD of dist/IO/IO.pm, excluding 1 not shown known potential problems
+ok 45 - POD of dist/IO/lib/IO/Dir.pm
+ok 46 - POD of dist/IO/lib/IO/File.pm
+ok 47 - POD of dist/IO/lib/IO/Handle.pm
+ok 48 - POD of dist/IO/lib/IO/Pipe.pm
+ok 49 - POD of dist/IO/lib/IO/Poll.pm
+ok 50 - POD of dist/IO/lib/IO/Seekable.pm
+ok 51 - POD of dist/IO/lib/IO/Select.pm
+ok 52 - POD of dist/IO/lib/IO/Socket.pm
+ok 53 - POD of dist/IO/lib/IO/Socket/INET.pm, excluding 5 not shown known potential problems
+ok 54 - POD of dist/IO/lib/IO/Socket/UNIX.pm
+ok 55 - POD of dist/lib/lib.pm
+ok 56 - POD of dist/Locale-Maketext/lib/Locale/Maketext.pod, excluding 2 not shown known potential problems
+ok 57 - POD of dist/Locale-Maketext/lib/Locale/Maketext/Cookbook.pod
+ok 58 - POD of dist/Locale-Maketext/lib/Locale/Maketext/Guts.pm
+ok 59 - POD of dist/Locale-Maketext/lib/Locale/Maketext/GutsLoader.pm
+ok 60 - POD of dist/Locale-Maketext/lib/Locale/Maketext/TPJ13.pod, excluding 3 not shown known potential problems
+ok 61 - POD of dist/Math-BigInt-FastCalc/lib/Math/BigInt/FastCalc.pm
+ok 62 - POD of dist/Math-BigInt/lib/Math/BigFloat.pm, excluding 41 not shown known potential problems
+ok 63 - POD of dist/Math-BigInt/lib/Math/BigInt.pm, excluding 135 not shown known potential problems
+ok 64 - POD of dist/Math-BigInt/lib/Math/BigInt/Calc.pm
+ok 65 - POD of dist/Math-BigInt/lib/Math/BigInt/CalcEmu.pm, excluding 4 not shown known potential problems
+ok 66 - POD of dist/Math-BigRat/lib/Math/BigRat.pm, excluding 11 not shown known potential problems
+ok 67 - POD of dist/Module-CoreList/blib/script/corelist, excluding 1 not shown known potential problems
+ok 68 # skip The pod of dist/Module-CoreList/corelist is a duplicate of the pod for dist/Module-CoreList/blib/script/corelist
+ok 69 - POD of dist/Module-CoreList/lib/Module/CoreList.pm, excluding 4 not shown known potential problems
+ok 70 - POD of dist/Net-Ping/lib/Net/Ping.pm, excluding 2 not shown known potential problems
+ok 71 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc.pm
+ok 72 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/BaseTo.pm
+ok 73 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/GetOptsOO.pm
+ok 74 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToChecker.pm
+ok 75 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToMan.pm
+ok 76 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToNroff.pm
+ok 77 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToPod.pm
+ok 78 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToRtf.pm
+ok 79 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToText.pm
+ok 80 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToTk.pm
+ok 81 - POD of dist/Pod-Perldoc/lib/Pod/Perldoc/ToXml.pm
+ok 82 - POD of dist/Safe/Safe.pm, excluding 2 not shown known potential problems
+ok 83 - POD of dist/SelfLoader/lib/SelfLoader.pm, excluding 14 not shown known potential problems
+ok 84 - POD of dist/Storable/Storable.pm, excluding 4 not shown known potential problems
+ok 85 - POD of dist/Text-Abbrev/lib/Text/Abbrev.pm
+ok 86 - POD of dist/Thread-Queue/lib/Thread/Queue.pm, excluding 4 not shown known potential problems
+ok 87 - POD of dist/Thread-Semaphore/lib/Thread/Semaphore.pm
+ok 88 - POD of dist/threads-shared/lib/threads/shared.pm
+ok 89 - POD of dist/threads/lib/threads.pm, excluding 3 not shown known potential problems
+ok 90 - POD of dist/XSLoader/XSLoader.pm
+ok 91 - POD of ext/attributes/attributes.pm
+ok 92 - POD of ext/B/B.pm, excluding 1 not shown known potential problems
+ok 93 - POD of ext/B/B/Concise.pm, excluding 1 not shown known potential problems
+ok 94 - POD of ext/B/B/Showlex.pm
+ok 95 - POD of ext/B/B/Terse.pm
+ok 96 - POD of ext/B/B/Xref.pm
+ok 97 - POD of ext/B/O.pm
+ok 98 - POD of ext/Devel-Peek/Peek.pm, excluding 4 not shown known potential problems
+ok 99 - POD of ext/DynaLoader/DynaLoader.pm, excluding 1 not shown known potential problems
+ok 100 - POD of ext/Errno/Errno.pm
+ok 101 - POD of ext/Fcntl/Fcntl.pm
+ok 102 - POD of ext/File-Glob/Glob.pm, excluding 15 not shown known potential problems
+ok 103 - POD of ext/FileCache/lib/FileCache.pm
+ok 104 - POD of ext/GDBM_File/GDBM_File.pm
+ok 105 - POD of ext/Hash-Util-FieldHash/lib/Hash/Util/FieldHash.pm, excluding 2 not shown known potential problems
+ok 106 - POD of ext/Hash-Util/lib/Hash/Util.pm
+ok 107 - POD of ext/I18N-Langinfo/Langinfo.pm, excluding 1 not shown known potential problems
+ok 108 - POD of ext/IPC-Open3/lib/IPC/Open2.pm
+ok 109 - POD of ext/IPC-Open3/lib/IPC/Open3.pm
+ok 110 - POD of ext/mro/mro.pm
+ok 111 - POD of ext/NDBM_File/NDBM_File.pm
+ok 112 - POD of ext/ODBM_File/ODBM_File.pm
+ok 113 - POD of ext/Opcode/Opcode.pm, excluding 10 not shown known potential problems
+ok 114 - POD of ext/Opcode/ops.pm
+ok 115 - POD of ext/PerlIO-encoding/encoding.pm
+ok 116 - POD of ext/PerlIO-scalar/scalar.pm
+ok 117 - POD of ext/PerlIO-via/via.pm
+ok 118 - POD of ext/Pod-Html/lib/Pod/Html.pm
+not ok 119 - POD of ext/Pod-Html/test.lib/perlpodspec.pod
+#   Pod NAME already used 
+#     'pod/perlpodspec.pod' also has NAME 'perlpodspec' near line ???
+#   Verbatim line length including indents exceeds 80 by  (8 occurrences)
+#     +1 (including 4 from =over's) near line 674
+#     +1 (including 4 from =over's) near line 1165
+#     +1 (including 4 from =over's) near line 1173
+#     +2 (including 4 from =over's) near line 1177
+#     +1 (including 4 from =over's) near line 1181
+#     +1 (including 4 from =over's) near line 1189
+#     +1 (including 4 from =over's) near line 1197
+#     +1 (including 4 from =over's) near line 1205
+# See end of this test output for your options on silencing this
+not ok 120 - POD of ext/Pod-Html/test.lib/perlvar.pod
+#   ? Should you be using L<...> instead of  (3 occurrences)
+#     C<$.> near line 465
+#     C<$^V> near line 1061
+#     C<$0> near line 1455
+#   Apparent broken link
+#     to "perldoc/select" near line 478
+#     to "perlfunc/formline()" near line 728
+#   Pod NAME already used 
+#     'pod/perlvar.pod' also has NAME 'perlvar' near line ???
+#   Verbatim line length including indents exceeds 80 by  (6 occurrences)
+#     +11 (including 8 from =over's) near line 650
+#     +2 (including 8 from =over's) near line 1155
+#     +9 (including 8 from =over's) near line 1555
+#     +3 (including 8 from =over's) near line 1556
+#     +3 (including 8 from =over's) near line 1558
+#     +6 (including 8 from =over's) near line 1610
+# See end of this test output for your options on silencing this
+ok 121 - POD of ext/POSIX/lib/POSIX.pod, excluding 29 not shown known potential problems
+ok 122 - POD of ext/re/re.pm, excluding 6 not shown known potential problems
+ok 123 - POD of ext/SDBM_File/SDBM_File.pm
+ok 124 - POD of ext/Socket/Socket.pm
+ok 125 - POD of ext/Sys-Hostname/Hostname.pm
+ok 126 - POD of ext/Tie-Hash-NamedCapture/NamedCapture.pm
+ok 127 - POD of ext/Tie-Memoize/lib/Tie/Memoize.pm
+ok 128 - POD of ext/VMS-DCLsym/DCLsym.pm, excluding 2 not shown known potential problems
+ok 129 - POD of ext/VMS-Stdio/Stdio.pm, excluding 1 not shown known potential problems
+ok 130 - POD of ext/Win32CORE/Win32CORE.pm
+ok 131 - POD of ext/XS-APItest/APItest.pm, excluding 1 not shown known potential problems
+ok 132 - POD of ext/XS-Typemap/Typemap.pm
+ok 133 - POD of haiku/Haiku/Haiku.pm
+ok 134 - POD of INSTALL, excluding 11 not shown known potential problems
+ok 135 - POD of installhtml, excluding 5 not shown known potential problems
+ok 136 - POD of make_patchnum.pl
+ok 137 - POD of minimod.pl
+ok 138 - POD of mkppport
+ok 139 - POD of os2/OS2/OS2-ExtAttr/ExtAttr.pm, excluding 1 not shown known potential problems
+ok 140 - POD of os2/OS2/OS2-PrfDB/PrfDB.pm
+ok 141 - POD of os2/OS2/OS2-Process/Process.pm, excluding 27 not shown known potential problems
+ok 142 - POD of os2/OS2/OS2-REXX/DLL/DLL.pm, excluding 2 not shown known potential problems
+ok 143 - POD of os2/OS2/OS2-REXX/REXX.pm, excluding 1 not shown known potential problems
+ok 144 - POD of pod/perl.pod, excluding 9 not shown known potential problems
+ok 145 - POD of pod/perlaix.pod, excluding 11 not shown known potential problems
+ok 146 - POD of pod/perlamiga.pod
+ok 147 - POD of pod/perlapi.pod, excluding 233 not shown known potential problems
+ok 148 - POD of pod/perlapio.pod, excluding 5 not shown known potential problems
+ok 149 - POD of pod/perlartistic.pod
+ok 150 - POD of pod/perlbeos.pod, excluding 5 not shown known potential problems
+ok 151 - POD of pod/perlbook.pod, excluding 1 not shown known potential problems
+ok 152 - POD of pod/perlboot.pod
+ok 153 - POD of pod/perlbot.pod
+ok 154 - POD of pod/perlbs2000.pod
+ok 155 - POD of pod/perlcall.pod, excluding 2 not shown known potential problems
+ok 156 - POD of pod/perlce.pod, excluding 2 not shown known potential problems
+ok 157 - POD of pod/perlcheat.pod
+ok 158 - POD of pod/perlclib.pod, excluding 3 not shown known potential problems
+ok 159 - POD of pod/perlcn.pod
+ok 160 - POD of pod/perlcommunity.pod
+ok 161 - POD of pod/perlcompile.pod
+ok 162 - POD of pod/perlcygwin.pod, excluding 27 not shown known potential problems
+ok 163 - POD of pod/perldata.pod
+ok 164 - POD of pod/perldbmfilter.pod, excluding 1 not shown known potential problems
+ok 165 - POD of pod/perldebguts.pod, excluding 68 not shown known potential problems
+ok 166 - POD of pod/perldebtut.pod, excluding 22 not shown known potential problems
+ok 167 - POD of pod/perldebug.pod, excluding 3 not shown known potential problems
+ok 168 - POD of pod/perldelta.pod, excluding 3 not shown known potential problems
+ok 169 - POD of pod/perldgux.pod
+ok 170 - POD of pod/perldiag.pod, excluding 3 not shown known potential problems
+ok 171 - POD of pod/perldoc.pod, excluding 1 not shown known potential problems
+ok 172 - POD of pod/perldos.pod
+ok 173 - POD of pod/perldsc.pod, excluding 4 not shown known potential problems
+ok 174 - POD of pod/perlebcdic.pod, excluding 273 not shown known potential problems
+ok 175 - POD of pod/perlembed.pod, excluding 27 not shown known potential problems
+ok 176 - POD of pod/perlepoc.pod
+ok 177 - POD of pod/perlfaq.pod
+ok 178 - POD of pod/perlfaq1.pod
+ok 179 - POD of pod/perlfaq2.pod, excluding 1 not shown known potential problems
+ok 180 - POD of pod/perlfaq3.pod
+ok 181 - POD of pod/perlfaq4.pod, excluding 16 not shown known potential problems
+ok 182 - POD of pod/perlfaq5.pod, excluding 40 not shown known potential problems
+ok 183 - POD of pod/perlfaq6.pod, excluding 36 not shown known potential problems
+ok 184 - POD of pod/perlfaq7.pod, excluding 7 not shown known potential problems
+ok 185 - POD of pod/perlfaq8.pod, excluding 20 not shown known potential problems
+ok 186 - POD of pod/perlfaq9.pod, excluding 7 not shown known potential problems
+ok 187 - POD of pod/perlfilter.pod
+ok 188 - POD of pod/perlfork.pod
+ok 189 - POD of pod/perlform.pod
+ok 190 - POD of pod/perlfreebsd.pod
+ok 191 - POD of pod/perlfunc.pod, excluding 184 not shown known potential problems
+ok 192 - POD of pod/perlgit.pod, excluding 14 not shown known potential problems
+ok 193 - POD of pod/perlglossary.pod
+ok 194 - POD of pod/perlgpl.pod, excluding 50 not shown known potential problems
+ok 195 - POD of pod/perlguts.pod, excluding 28 not shown known potential problems
+ok 196 - POD of pod/perlhack.pod, excluding 2 not shown known potential problems
+ok 197 - POD of pod/perlhacktips.pod, excluding 1 not shown known potential problems
+ok 198 - POD of pod/perlhacktut.pod
+ok 199 - POD of pod/perlhaiku.pod
+ok 200 - POD of pod/perlhist.pod, excluding 2 not shown known potential problems
+ok 201 - POD of pod/perlhpux.pod, excluding 2 not shown known potential problems
+ok 202 - POD of pod/perlhurd.pod, excluding 2 not shown known potential problems
+ok 203 - POD of pod/perlintern.pod, excluding 31 not shown known potential problems
+ok 204 - POD of pod/perlinterp.pod, excluding 2 not shown known potential problems
+ok 205 - POD of pod/perlintro.pod, excluding 11 not shown known potential problems
+ok 206 - POD of pod/perliol.pod, excluding 8 not shown known potential problems
+ok 207 - POD of pod/perlipc.pod, excluding 21 not shown known potential problems
+ok 208 - POD of pod/perlirix.pod, excluding 4 not shown known potential problems
+ok 209 - POD of pod/perljp.pod
+ok 210 - POD of pod/perlko.pod
+ok 211 - POD of pod/perllexwarn.pod
+ok 212 - POD of pod/perllinux.pod
+ok 213 - POD of pod/perllocale.pod, excluding 4 not shown known potential problems
+ok 214 - POD of pod/perllol.pod, excluding 4 not shown known potential problems
+ok 215 - POD of pod/perlmacos.pod
+ok 216 - POD of pod/perlmacosx.pod, excluding 3 not shown known potential problems
+not ok 217 - POD of pod/perlmod.pod, excluding 3 not shown known potential problems
+#   Apparent broken link 
+#     to "perlvar/The Syntax of Variable Names" near line 67
+# See end of this test output for your options on silencing this
+ok 218 - POD of pod/perlmodinstall.pod
+ok 219 - POD of pod/perlmodlib.pod, excluding 3 not shown known potential problems
+ok 220 - POD of pod/perlmodstyle.pod, excluding 2 not shown known potential problems
+ok 221 - POD of pod/perlmpeix.pod, excluding 2 not shown known potential problems
+ok 222 - POD of pod/perlmroapi.pod, excluding 1 not shown known potential problems
+ok 223 - POD of pod/perlnetware.pod, excluding 4 not shown known potential problems
+ok 224 - POD of pod/perlnewmod.pod, excluding 1 not shown known potential problems
+ok 225 - POD of pod/perlnumber.pod
+ok 226 - POD of pod/perlobj.pod
+ok 227 - POD of pod/perlop.pod, excluding 30 not shown known potential problems
+ok 228 - POD of pod/perlopenbsd.pod
+ok 229 - POD of pod/perlopentut.pod
+ok 230 - POD of pod/perlos2.pod, excluding 28 not shown known potential problems
+ok 231 - POD of pod/perlos390.pod, excluding 11 not shown known potential problems
+ok 232 - POD of pod/perlos400.pod
+ok 233 - POD of pod/perlpacktut.pod, excluding 6 not shown known potential problems
+ok 234 - POD of pod/perlperf.pod, excluding 154 not shown known potential problems
+ok 235 - POD of pod/perlplan9.pod
+not ok 236 - POD of pod/perlpod.pod
+#   Apparent broken link 
+#     to "pod2html" near line 731
+# See end of this test output for your options on silencing this
+not ok 237 - POD of pod/perlpodspec.pod, excluding 9 not shown known potential problems
+#   Pod NAME already used 
+#     'ext/Pod-Html/test.lib/perlpodspec.pod' also has NAME 'perlpodspec' near line ???
+# See end of this test output for your options on silencing this
+ok 238 - POD of pod/perlpodstyle.pod, excluding 1 not shown known potential problems
+ok 239 - POD of pod/perlpolicy.pod
+ok 240 - POD of pod/perlport.pod, excluding 2 not shown known potential problems
+ok 241 - POD of pod/perlpragma.pod
+ok 242 - POD of pod/perlqnx.pod
+ok 243 - POD of pod/perlre.pod
+ok 244 - POD of pod/perlreapi.pod, excluding 17 not shown known potential problems
+ok 245 - POD of pod/perlrebackslash.pod, excluding 1 not shown known potential problems
+ok 246 - POD of pod/perlrecharclass.pod
+ok 247 - POD of pod/perlref.pod, excluding 1 not shown known potential problems
+ok 248 - POD of pod/perlreftut.pod
+ok 249 - POD of pod/perlreguts.pod, excluding 17 not shown known potential problems
+ok 250 - POD of pod/perlrequick.pod, excluding 3 not shown known potential problems
+ok 251 - POD of pod/perlreref.pod
+ok 252 - POD of pod/perlretut.pod, excluding 13 not shown known potential problems
+ok 253 - POD of pod/perlriscos.pod
+ok 254 - POD of pod/perlrun.pod, excluding 2 not shown known potential problems
+ok 255 - POD of pod/perlsec.pod, excluding 1 not shown known potential problems
+ok 256 - POD of pod/perlsolaris.pod, excluding 14 not shown known potential problems
+ok 257 - POD of pod/perlsource.pod, excluding 1 not shown known potential problems
+ok 258 - POD of pod/perlstyle.pod
+ok 259 - POD of pod/perlsub.pod, excluding 7 not shown known potential problems
+ok 260 - POD of pod/perlsymbian.pod, excluding 20 not shown known potential problems
+ok 261 - POD of pod/perlsyn.pod, excluding 7 not shown known potential problems
+ok 262 - POD of pod/perlthrtut.pod, excluding 5 not shown known potential problems
+ok 263 - POD of pod/perltie.pod, excluding 13 not shown known potential problems
+ok 264 - POD of pod/perltodo.pod, excluding 9 not shown known potential problems
+ok 265 - POD of pod/perltooc.pod
+ok 266 - POD of pod/perltoot.pod, excluding 1 not shown known potential problems
+ok 267 - POD of pod/perltrap.pod, excluding 16 not shown known potential problems
+ok 268 - POD of pod/perltru64.pod, excluding 5 not shown known potential problems
+ok 269 - POD of pod/perltw.pod
+ok 270 - POD of pod/perlunicode.pod
+ok 271 - POD of pod/perlunifaq.pod, excluding 1 not shown known potential problems
+ok 272 - POD of pod/perluniintro.pod, excluding 3 not shown known potential problems
+ok 273 - POD of pod/perluniprops.pod, excluding 6 not shown known potential problems
+ok 274 - POD of pod/perlunitut.pod
+not ok 275 - POD of pod/perlutil.pod
+#   Apparent broken link
+#     to "pod2html" near line 38
+#     to "pod2html" near line 298
+# See end of this test output for your options on silencing this
+ok 276 - POD of pod/perluts.pod
+not ok 277 - POD of pod/perlvar.pod, excluding 9 not shown known potential problems
+#   Pod NAME already used 
+#     'ext/Pod-Html/test.lib/perlvar.pod' also has NAME 'perlvar' near line ???
+# See end of this test output for your options on silencing this
+ok 278 - POD of pod/perlvmesa.pod
+ok 279 - POD of pod/perlvms.pod, excluding 3 not shown known potential problems
+ok 280 - POD of pod/perlvos.pod
+ok 281 - POD of pod/perlwin32.pod, excluding 12 not shown known potential problems
+ok 282 - POD of pod/perlxs.pod, excluding 4 not shown known potential problems
+ok 283 - POD of pod/perlxstut.pod, excluding 10 not shown known potential problems
+ok 284 - POD of Porting/checkansi.pl
+ok 285 - POD of Porting/checkURL.pl
+ok 286 - POD of Porting/epigraphs.pod, excluding 3 not shown known potential problems
+ok 287 - POD of Porting/expand-macro.pl, excluding 2 not shown known potential problems
+ok 288 - POD of Porting/git-deltatool
+ok 289 - POD of Porting/how_to_write_a_perldelta.pod, excluding 4 not shown known potential problems
+ok 290 - POD of Porting/pumpkin.pod, excluding 9 not shown known potential problems
+ok 291 - POD of Porting/release_managers_guide.pod, excluding 12 not shown known potential problems
+ok 292 - POD of Porting/release_schedule.pod, excluding 1 not shown known potential problems
+ok 293 - POD of Porting/sort_perldiag.pl
+ok 294 - POD of Porting/valgrindpp.pl
+ok 295 - POD of regen/regcharclass.pl
+ok 296 - POD of regen/warnings.pl
+ok 297 - POD of symbian/PerlBase.pod
+ok 298 - POD of symbian/PerlUtil.pod, excluding 4 not shown known potential problems
+ok 299 - POD of t/porting/podcheck.t
+ok 300 - POD of utils/c2ph, excluding 44 not shown known potential problems
+ok 301 # skip The pod of utils/config_data is a duplicate of the pod for cpan/Module-Build/bin/config_data
+ok 302 # skip The pod of utils/corelist is a duplicate of the pod for dist/Module-CoreList/blib/script/corelist
+ok 303 # skip The pod of utils/cpan is a duplicate of the pod for cpan/CPAN/scripts/cpan
+ok 304 # skip The pod of utils/cpan2dist is a duplicate of the pod for cpan/CPANPLUS/blib/script/cpan2dist
+ok 305 # skip The pod of utils/cpanp is a duplicate of the pod for cpan/CPANPLUS/blib/script/cpanp
+ok 306 # skip The pod of utils/enc2xs is a duplicate of the pod for cpan/Encode/blib/script/enc2xs
+ok 307 - POD of utils/h2ph
+ok 308 - POD of utils/h2xs
+ok 309 # skip The pod of utils/instmodsh is a duplicate of the pod for cpan/ExtUtils-MakeMaker/bin/instmodsh
+ok 310 # skip The pod of utils/json_pp is a duplicate of the pod for cpan/JSON-PP/bin/json_pp
+ok 311 - POD of utils/libnetcfg, excluding 1 not shown known potential problems
+ok 312 - POD of utils/perlbug
+ok 313 - POD of utils/perlivp
+ok 314 # skip The pod of utils/piconv is a duplicate of the pod for cpan/Encode/blib/script/piconv
+ok 315 - POD of utils/pl2pm
+ok 316 # skip The pod of utils/prove is a duplicate of the pod for cpan/Test-Harness/bin/prove
+ok 317 # skip The pod of utils/pstruct is a duplicate of the pod for utils/c2ph
+ok 318 # skip The pod of utils/ptar is a duplicate of the pod for cpan/Archive-Tar/bin/ptar
+ok 319 # skip The pod of utils/ptardiff is a duplicate of the pod for cpan/Archive-Tar/bin/ptardiff
+ok 320 # skip The pod of utils/ptargrep is a duplicate of the pod for cpan/Archive-Tar/bin/ptargrep
+ok 321 # skip The pod of utils/shasum is a duplicate of the pod for cpan/Digest-SHA/blib/script/shasum
+ok 322 - POD of utils/splain
+ok 323 # skip The pod of utils/xsubpp is a duplicate of the pod for dist/ExtUtils-ParseXS/lib/ExtUtils/xsubpp
+ok 324 - POD of vms/ext/Filespec.pm, excluding 1 not shown known potential problems
+ok 325 - POD of win32/bin/exetype.pl
+ok 326 - POD of win32/bin/perlglob.pl
+ok 327 - POD of win32/bin/pl2bat.pl
+ok 328 - POD of win32/bin/runperl.pl
+ok 329 - POD of x2p/a2p.pod, excluding 2 not shown known potential problems
+ok 330 - POD of x2p/find2perl
+ok 331 - POD of x2p/psed
+ok 332 # skip The pod of x2p/s2p is a duplicate of the pod for x2p/psed
+ok 333 - POD of Cross/README.new
+ok 334 # skip The pod of README.aix is a duplicate of the pod for pod/perlaix.pod
+ok 335 # skip The pod of README.amiga is a duplicate of the pod for pod/perlamiga.pod
+ok 336 # skip The pod of README.beos is a duplicate of the pod for pod/perlbeos.pod
+ok 337 # skip The pod of README.bs2000 is a duplicate of the pod for pod/perlbs2000.pod
+ok 338 # skip The pod of README.ce is a duplicate of the pod for pod/perlce.pod
+ok 339 # skip The pod of README.cn is a duplicate of the pod for pod/perlcn.pod
+ok 340 # skip The pod of README.cygwin is a duplicate of the pod for pod/perlcygwin.pod
+ok 341 # skip The pod of README.dgux is a duplicate of the pod for pod/perldgux.pod
+ok 342 # skip The pod of README.dos is a duplicate of the pod for pod/perldos.pod
+ok 343 # skip The pod of README.epoc is a duplicate of the pod for pod/perlepoc.pod
+ok 344 # skip The pod of README.freebsd is a duplicate of the pod for pod/perlfreebsd.pod
+ok 345 # skip The pod of README.haiku is a duplicate of the pod for pod/perlhaiku.pod
+ok 346 # skip The pod of README.hpux is a duplicate of the pod for pod/perlhpux.pod
+ok 347 # skip The pod of README.hurd is a duplicate of the pod for pod/perlhurd.pod
+ok 348 # skip The pod of README.irix is a duplicate of the pod for pod/perlirix.pod
+ok 349 # skip The pod of README.jp is a duplicate of the pod for pod/perljp.pod
+ok 350 # skip The pod of README.ko is a duplicate of the pod for pod/perlko.pod
+ok 351 # skip The pod of README.linux is a duplicate of the pod for pod/perllinux.pod
+ok 352 # skip The pod of README.macos is a duplicate of the pod for pod/perlmacos.pod
+ok 353 # skip The pod of README.macosx is a duplicate of the pod for pod/perlmacosx.pod
+ok 354 # skip The pod of README.mpeix is a duplicate of the pod for pod/perlmpeix.pod
+ok 355 # skip The pod of README.netware is a duplicate of the pod for pod/perlnetware.pod
+ok 356 # skip The pod of README.openbsd is a duplicate of the pod for pod/perlopenbsd.pod
+ok 357 # skip The pod of README.os2 is a duplicate of the pod for pod/perlos2.pod
+ok 358 # skip The pod of README.os390 is a duplicate of the pod for pod/perlos390.pod
+ok 359 # skip The pod of README.os400 is a duplicate of the pod for pod/perlos400.pod
+ok 360 # skip The pod of README.plan9 is a duplicate of the pod for pod/perlplan9.pod
+ok 361 # skip The pod of README.qnx is a duplicate of the pod for pod/perlqnx.pod
+ok 362 # skip The pod of README.riscos is a duplicate of the pod for pod/perlriscos.pod
+ok 363 # skip The pod of README.solaris is a duplicate of the pod for pod/perlsolaris.pod
+ok 364 # skip The pod of README.symbian is a duplicate of the pod for pod/perlsymbian.pod
+ok 365 # skip The pod of README.tru64 is a duplicate of the pod for pod/perltru64.pod
+ok 366 # skip The pod of README.tw is a duplicate of the pod for pod/perltw.pod
+ok 367 # skip The pod of README.uts is a duplicate of the pod for pod/perluts.pod
+ok 368 # skip The pod of README.vmesa is a duplicate of the pod for pod/perlvmesa.pod
+ok 369 # skip README.vms is a README apparently for pod/perlvms.pod
+ok 370 # skip The pod of README.vos is a duplicate of the pod for pod/perlvos.pod
+ok 371 # skip The pod of README.win32 is a duplicate of the pod for pod/perlwin32.pod
+ok 372 # skip dist/Module-CoreList/README is a README apparently for dist/Module-CoreList/lib/Module/CoreList.pm
+ok 373 - POD of hints/README.hints
+ok 374 - POD of lib/AnyDBM_File.pm
+ok 375 # skip The pod of lib/App/Cpan.pm is a duplicate of the pod for cpan/CPAN/lib/App/Cpan.pm
+ok 376 # skip The pod of lib/App/Prove.pm is a duplicate of the pod for cpan/Test-Harness/lib/App/Prove.pm
+ok 377 # skip The pod of lib/App/Prove/State.pm is a duplicate of the pod for cpan/Test-Harness/lib/App/Prove/State.pm
+ok 378 # skip The pod of lib/App/Prove/State/Result.pm is a duplicate of the pod for cpan/Test-Harness/lib/App/Prove/State/Result.pm
+ok 379 # skip The pod of lib/App/Prove/State/Result/Test.pm is a duplicate of the pod for cpan/Test-Harness/lib/App/Prove/State/Result/Test.pm
+ok 380 # skip The pod of lib/Archive/Extract.pm is a duplicate of the pod for cpan/Archive-Extract/lib/Archive/Extract.pm
+ok 381 # skip The pod of lib/Archive/Tar.pm is a duplicate of the pod for cpan/Archive-Tar/lib/Archive/Tar.pm
+ok 382 # skip The pod of lib/Archive/Tar/File.pm is a duplicate of the pod for cpan/Archive-Tar/lib/Archive/Tar/File.pm
+ok 383 # skip The pod of lib/Attribute/Handlers.pm is a duplicate of the pod for dist/Attribute-Handlers/lib/Attribute/Handlers.pm
+ok 384 # skip The pod of lib/AutoLoader.pm is a duplicate of the pod for cpan/AutoLoader/lib/AutoLoader.pm
+ok 385 # skip The pod of lib/AutoSplit.pm is a duplicate of the pod for cpan/AutoLoader/lib/AutoSplit.pm
+ok 386 # skip The pod of lib/B.pm is a duplicate of the pod for ext/B/B.pm
+ok 387 # skip The pod of lib/B/Concise.pm is a duplicate of the pod for ext/B/B/Concise.pm
+ok 388 # skip The pod of lib/B/Debug.pm is a duplicate of the pod for cpan/B-Debug/Debug.pm
+ok 389 # skip The pod of lib/B/Deparse.pm is a duplicate of the pod for dist/B-Deparse/Deparse.pm
+ok 390 # skip The pod of lib/B/Lint.pm is a duplicate of the pod for dist/B-Lint/lib/B/Lint.pm
+ok 391 # skip The pod of lib/B/Lint/Debug.pm is a duplicate of the pod for dist/B-Lint/lib/B/Lint/Debug.pm
+ok 392 # skip The pod of lib/B/Showlex.pm is a duplicate of the pod for ext/B/B/Showlex.pm
+ok 393 # skip The pod of lib/B/Terse.pm is a duplicate of the pod for ext/B/B/Terse.pm
+ok 394 # skip The pod of lib/B/Xref.pm is a duplicate of the pod for ext/B/B/Xref.pm
+ok 395 - POD of lib/Benchmark.pm, excluding 4 not shown known potential problems
+ok 396 # skip The pod of lib/CGI.pm is a duplicate of the pod for cpan/CGI/lib/CGI.pm
+ok 397 # skip The pod of lib/CGI/Apache.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Apache.pm
+ok 398 # skip The pod of lib/CGI/Carp.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Carp.pm
+ok 399 # skip The pod of lib/CGI/Cookie.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Cookie.pm
+ok 400 # skip The pod of lib/CGI/Fast.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Fast.pm
+ok 401 # skip The pod of lib/CGI/Pretty.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Pretty.pm
+ok 402 # skip The pod of lib/CGI/Push.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Push.pm
+ok 403 # skip The pod of lib/CGI/Switch.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Switch.pm
+ok 404 # skip The pod of lib/CGI/Util.pm is a duplicate of the pod for cpan/CGI/lib/CGI/Util.pm
+ok 405 - POD of lib/CORE.pod
+ok 406 # skip The pod of lib/CPAN.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN.pm
+ok 407 # skip The pod of lib/CPAN/API/HOWTO.pod is a duplicate of the pod for cpan/CPAN/lib/CPAN/API/HOWTO.pod
+ok 408 - POD of lib/CPAN/Debug.pm, excluding 1 not shown known potential problems
+ok 409 # skip The pod of lib/CPAN/Distroprefs.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN/Distroprefs.pm
+ok 410 # skip The pod of lib/CPAN/FirstTime.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN/FirstTime.pm
+ok 411 - POD of lib/CPAN/HandleConfig.pm, excluding 2 not shown known potential problems
+ok 412 # skip The pod of lib/CPAN/Kwalify.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN/Kwalify.pm
+ok 413 # skip The pod of lib/CPAN/Meta.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta.pm
+ok 414 # skip The pod of lib/CPAN/Meta/Converter.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/Converter.pm
+ok 415 # skip The pod of lib/CPAN/Meta/Feature.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/Feature.pm
+ok 416 # skip The pod of lib/CPAN/Meta/History.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/History.pm
+ok 417 # skip The pod of lib/CPAN/Meta/Prereqs.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/Prereqs.pm
+ok 418 # skip The pod of lib/CPAN/Meta/Spec.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/Spec.pm
+ok 419 # skip The pod of lib/CPAN/Meta/Validator.pm is a duplicate of the pod for cpan/CPAN-Meta/lib/CPAN/Meta/Validator.pm
+ok 420 # skip The pod of lib/CPAN/Meta/YAML.pm is a duplicate of the pod for cpan/CPAN-Meta-YAML/lib/CPAN/Meta/YAML.pm
+ok 421 # skip The pod of lib/CPAN/Nox.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN/Nox.pm
+ok 422 # skip The pod of lib/CPAN/Queue.pm is a duplicate of the pod for lib/CPAN/Debug.pm
+ok 423 # skip The pod of lib/CPAN/Tarzip.pm is a duplicate of the pod for lib/CPAN/Debug.pm
+ok 424 # skip The pod of lib/CPAN/Version.pm is a duplicate of the pod for cpan/CPAN/lib/CPAN/Version.pm
+ok 425 # skip The pod of lib/CPANPLUS.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS.pm
+ok 426 # skip The pod of lib/CPANPLUS/Backend.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Backend.pm
+ok 427 # skip The pod of lib/CPANPLUS/Backend/RV.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Backend/RV.pm
+ok 428 # skip The pod of lib/CPANPLUS/Config.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Config.pm
+ok 429 # skip The pod of lib/CPANPLUS/Configure.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Configure.pm
+ok 430 # skip lib/CPANPLUS/Configure/Setup.pm is not a pod
+ok 431 # skip The pod of lib/CPANPLUS/Dist.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Dist.pm
+ok 432 # skip The pod of lib/CPANPLUS/Dist/Autobundle.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Dist/Autobundle.pm
+ok 433 # skip The pod of lib/CPANPLUS/Dist/Base.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Dist/Base.pm
+ok 434 # skip The pod of lib/CPANPLUS/Dist/Build.pm is a duplicate of the pod for cpan/CPANPLUS-Dist-Build/lib/CPANPLUS/Dist/Build.pm
+ok 435 # skip The pod of lib/CPANPLUS/Dist/Build/Constants.pm is a duplicate of the pod for cpan/CPANPLUS-Dist-Build/lib/CPANPLUS/Dist/Build/Constants.pm
+ok 436 # skip The pod of lib/CPANPLUS/Dist/MM.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Dist/MM.pm
+ok 437 # skip The pod of lib/CPANPLUS/Dist/Sample.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Dist/Sample.pm
+ok 438 # skip The pod of lib/CPANPLUS/Error.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Error.pm
+ok 439 # skip The pod of lib/CPANPLUS/FAQ.pod is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/FAQ.pod
+ok 440 # skip The pod of lib/CPANPLUS/Hacking.pod is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Hacking.pod
+ok 441 # skip The pod of lib/CPANPLUS/Internals.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals.pm
+ok 442 # skip The pod of lib/CPANPLUS/Internals/Extract.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Extract.pm
+ok 443 # skip The pod of lib/CPANPLUS/Internals/Fetch.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Fetch.pm
+ok 444 # skip The pod of lib/CPANPLUS/Internals/Report.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Report.pm
+ok 445 # skip The pod of lib/CPANPLUS/Internals/Search.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Search.pm
+ok 446 # skip The pod of lib/CPANPLUS/Internals/Source.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source.pm
+ok 447 # skip The pod of lib/CPANPLUS/Internals/Source/Memory.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source/Memory.pm
+ok 448 # skip The pod of lib/CPANPLUS/Internals/Source/SQLite.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source/SQLite.pm
+ok 449 # skip The pod of lib/CPANPLUS/Internals/Utils.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Internals/Utils.pm
+ok 450 # skip The pod of lib/CPANPLUS/Module.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Module.pm
+ok 451 # skip The pod of lib/CPANPLUS/Module/Author.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Module/Author.pm
+ok 452 # skip The pod of lib/CPANPLUS/Module/Author/Fake.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Module/Author/Fake.pm
+ok 453 # skip The pod of lib/CPANPLUS/Module/Checksums.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Module/Checksums.pm
+ok 454 # skip The pod of lib/CPANPLUS/Module/Fake.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Module/Fake.pm
+ok 455 # skip The pod of lib/CPANPLUS/Selfupdate.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Selfupdate.pm
+ok 456 # skip The pod of lib/CPANPLUS/Shell.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell.pm
+ok 457 # skip The pod of lib/CPANPLUS/Shell/Classic.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Classic.pm
+ok 458 # skip The pod of lib/CPANPLUS/Shell/Default.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default.pm
+ok 459 # skip The pod of lib/CPANPLUS/Shell/Default/Plugins/CustomSource.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/CustomSource.pm
+ok 460 # skip The pod of lib/CPANPLUS/Shell/Default/Plugins/HOWTO.pod is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/HOWTO.pod
+ok 461 # skip The pod of lib/CPANPLUS/Shell/Default/Plugins/Remote.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/Remote.pm
+ok 462 # skip The pod of lib/CPANPLUS/Shell/Default/Plugins/Source.pm is a duplicate of the pod for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/Source.pm
+ok 463 - POD of lib/Carp.pm
+ok 464 - POD of lib/Class/Struct.pm, excluding 7 not shown known potential problems
+ok 465 # skip The pod of lib/Compress/Raw/Bzip2.pm is a duplicate of the pod for cpan/Compress-Raw-Bzip2/lib/Compress/Raw/Bzip2.pm
+ok 466 # skip The pod of lib/Compress/Raw/Zlib.pm is a duplicate of the pod for cpan/Compress-Raw-Zlib/lib/Compress/Raw/Zlib.pm
+ok 467 # skip The pod of lib/Compress/Zlib.pm is a duplicate of the pod for cpan/IO-Compress/lib/Compress/Zlib.pm
+ok 468 - POD of lib/Config.pod, excluding 25 not shown known potential problems
+ok 469 - POD of lib/Config/Extensions.pm
+ok 470 # skip The pod of lib/Cwd.pm is a duplicate of the pod for dist/Cwd/Cwd.pm
+ok 471 - POD of lib/DB.pm, excluding 2 not shown known potential problems
+ok 472 - POD of lib/DBM_Filter.pm, excluding 1 not shown known potential problems
+ok 473 - POD of lib/DBM_Filter/compress.pm, excluding 1 not shown known potential problems
+ok 474 - POD of lib/DBM_Filter/encode.pm, excluding 1 not shown known potential problems
+ok 475 - POD of lib/DBM_Filter/int32.pm, excluding 1 not shown known potential problems
+ok 476 - POD of lib/DBM_Filter/null.pm, excluding 1 not shown known potential problems
+ok 477 - POD of lib/DBM_Filter/utf8.pm, excluding 1 not shown known potential problems
+ok 478 # skip The pod of lib/Data/Dumper.pm is a duplicate of the pod for dist/Data-Dumper/Dumper.pm
+ok 479 # skip The pod of lib/Devel/InnerPackage.pm is a duplicate of the pod for cpan/Module-Pluggable/lib/Devel/InnerPackage.pm
+ok 480 # skip The pod of lib/Devel/PPPort.pm is a duplicate of the pod for cpan/Devel-PPPort/PPPort.pm
+ok 481 # skip The pod of lib/Devel/Peek.pm is a duplicate of the pod for ext/Devel-Peek/Peek.pm
+ok 482 # skip The pod of lib/Devel/SelfStubber.pm is a duplicate of the pod for dist/Devel-SelfStubber/lib/Devel/SelfStubber.pm
+ok 483 # skip The pod of lib/Digest.pm is a duplicate of the pod for cpan/Digest/Digest.pm
+ok 484 # skip The pod of lib/Digest/MD5.pm is a duplicate of the pod for cpan/Digest-MD5/MD5.pm
+ok 485 # skip The pod of lib/Digest/SHA.pm is a duplicate of the pod for cpan/Digest-SHA/lib/Digest/SHA.pm
+ok 486 # skip The pod of lib/Digest/base.pm is a duplicate of the pod for cpan/Digest/Digest/base.pm
+ok 487 # skip The pod of lib/Digest/file.pm is a duplicate of the pod for cpan/Digest/Digest/file.pm
+ok 488 - POD of lib/DirHandle.pm
+ok 489 # skip The pod of lib/Dumpvalue.pm is a duplicate of the pod for dist/Dumpvalue/lib/Dumpvalue.pm
+ok 490 # skip The pod of lib/DynaLoader.pm is a duplicate of the pod for ext/DynaLoader/DynaLoader.pm
+ok 491 # skip The pod of lib/Encode.pm is a duplicate of the pod for cpan/Encode/Encode.pm
+ok 492 # skip The pod of lib/Encode/Alias.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Alias.pm
+ok 493 # skip The pod of lib/Encode/Byte.pm is a duplicate of the pod for cpan/Encode/Byte/Byte.pm
+ok 494 # skip The pod of lib/Encode/CJKConstants.pm is a duplicate of the pod for cpan/Encode/lib/Encode/CJKConstants.pm
+ok 495 # skip The pod of lib/Encode/CN.pm is a duplicate of the pod for cpan/Encode/CN/CN.pm
+ok 496 # skip The pod of lib/Encode/CN/HZ.pm is a duplicate of the pod for cpan/Encode/lib/Encode/CN/HZ.pm
+ok 497 # skip The pod of lib/Encode/Config.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Config.pm
+ok 498 # skip The pod of lib/Encode/EBCDIC.pm is a duplicate of the pod for cpan/Encode/EBCDIC/EBCDIC.pm
+ok 499 # skip The pod of lib/Encode/Encoder.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Encoder.pm
+ok 500 # skip The pod of lib/Encode/Encoding.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Encoding.pm
+ok 501 # skip The pod of lib/Encode/GSM0338.pm is a duplicate of the pod for cpan/Encode/lib/Encode/GSM0338.pm
+ok 502 # skip The pod of lib/Encode/Guess.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Guess.pm
+ok 503 # skip The pod of lib/Encode/JP.pm is a duplicate of the pod for cpan/Encode/JP/JP.pm
+ok 504 # skip The pod of lib/Encode/JP/H2Z.pm is a duplicate of the pod for cpan/Encode/lib/Encode/JP/H2Z.pm
+ok 505 # skip The pod of lib/Encode/JP/JIS7.pm is a duplicate of the pod for cpan/Encode/lib/Encode/JP/JIS7.pm
+ok 506 # skip The pod of lib/Encode/KR.pm is a duplicate of the pod for cpan/Encode/KR/KR.pm
+ok 507 # skip The pod of lib/Encode/KR/2022_KR.pm is a duplicate of the pod for cpan/Encode/lib/Encode/KR/2022_KR.pm
+ok 508 # skip The pod of lib/Encode/MIME/Header.pm is a duplicate of the pod for cpan/Encode/lib/Encode/MIME/Header.pm
+ok 509 # skip The pod of lib/Encode/MIME/Name.pm is a duplicate of the pod for cpan/Encode/lib/Encode/MIME/Name.pm
+ok 510 # skip The pod of lib/Encode/PerlIO.pod is a duplicate of the pod for cpan/Encode/lib/Encode/PerlIO.pod
+ok 511 # skip The pod of lib/Encode/Supported.pod is a duplicate of the pod for cpan/Encode/lib/Encode/Supported.pod
+ok 512 # skip The pod of lib/Encode/Symbol.pm is a duplicate of the pod for cpan/Encode/Symbol/Symbol.pm
+ok 513 # skip The pod of lib/Encode/TW.pm is a duplicate of the pod for cpan/Encode/TW/TW.pm
+ok 514 # skip The pod of lib/Encode/Unicode.pm is a duplicate of the pod for cpan/Encode/Unicode/Unicode.pm
+ok 515 # skip The pod of lib/Encode/Unicode/UTF7.pm is a duplicate of the pod for cpan/Encode/lib/Encode/Unicode/UTF7.pm
+ok 516 # skip The pod of lib/Encode/_PM.e2x is a duplicate of the pod for cpan/Encode/Encode/_PM.e2x
+ok 517 - POD of lib/English.pm, excluding 1 not shown known potential problems
+ok 518 # skip The pod of lib/Env.pm is a duplicate of the pod for dist/Env/lib/Env.pm
+ok 519 # skip The pod of lib/Errno.pm is a duplicate of the pod for ext/Errno/Errno.pm
+ok 520 - POD of lib/Exporter.pm, excluding 2 not shown known potential problems
+ok 521 - POD of lib/Exporter/Heavy.pm
+ok 522 # skip The pod of lib/ExtUtils/CBuilder.pm is a duplicate of the pod for dist/ExtUtils-CBuilder/lib/ExtUtils/CBuilder.pm
+ok 523 # skip The pod of lib/ExtUtils/CBuilder/Platform/Windows.pm is a duplicate of the pod for dist/ExtUtils-CBuilder/lib/ExtUtils/CBuilder/Platform/Windows.pm
+ok 524 # skip The pod of lib/ExtUtils/Command.pm is a duplicate of the pod for dist/ExtUtils-Command/lib/ExtUtils/Command.pm
+ok 525 # skip The pod of lib/ExtUtils/Command/MM.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Command/MM.pm
+ok 526 # skip The pod of lib/ExtUtils/Constant.pm is a duplicate of the pod for cpan/ExtUtils-Constant/lib/ExtUtils/Constant.pm
+ok 527 # skip The pod of lib/ExtUtils/Constant/Base.pm is a duplicate of the pod for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/Base.pm
+ok 528 # skip The pod of lib/ExtUtils/Constant/Utils.pm is a duplicate of the pod for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/Utils.pm
+ok 529 # skip The pod of lib/ExtUtils/Constant/XS.pm is a duplicate of the pod for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/XS.pm
+ok 530 - POD of lib/ExtUtils/Embed.pm, excluding 2 not shown known potential problems
+ok 531 # skip The pod of lib/ExtUtils/Install.pm is a duplicate of the pod for dist/ExtUtils-Install/lib/ExtUtils/Install.pm
+ok 532 # skip The pod of lib/ExtUtils/Installed.pm is a duplicate of the pod for dist/ExtUtils-Install/lib/ExtUtils/Installed.pm
+ok 533 # skip The pod of lib/ExtUtils/Liblist.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Liblist.pm
+ok 534 # skip The pod of lib/ExtUtils/MM.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM.pm
+ok 535 # skip The pod of lib/ExtUtils/MM_AIX.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_AIX.pm
+ok 536 # skip The pod of lib/ExtUtils/MM_Any.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Any.pm
+ok 537 # skip The pod of lib/ExtUtils/MM_BeOS.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_BeOS.pm
+ok 538 # skip The pod of lib/ExtUtils/MM_Cygwin.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Cygwin.pm
+ok 539 # skip The pod of lib/ExtUtils/MM_DOS.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_DOS.pm
+ok 540 # skip The pod of lib/ExtUtils/MM_Darwin.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Darwin.pm
+ok 541 # skip The pod of lib/ExtUtils/MM_MacOS.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_MacOS.pm
+ok 542 # skip The pod of lib/ExtUtils/MM_NW5.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_NW5.pm
+ok 543 # skip The pod of lib/ExtUtils/MM_OS2.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_OS2.pm
+ok 544 # skip The pod of lib/ExtUtils/MM_QNX.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_QNX.pm
+ok 545 # skip The pod of lib/ExtUtils/MM_UWIN.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_UWIN.pm
+ok 546 # skip The pod of lib/ExtUtils/MM_Unix.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm
+ok 547 # skip The pod of lib/ExtUtils/MM_VMS.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_VMS.pm
+ok 548 # skip The pod of lib/ExtUtils/MM_VOS.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_VOS.pm
+ok 549 # skip The pod of lib/ExtUtils/MM_Win32.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Win32.pm
+ok 550 # skip The pod of lib/ExtUtils/MM_Win95.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Win95.pm
+ok 551 # skip The pod of lib/ExtUtils/MY.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MY.pm
+ok 552 # skip The pod of lib/ExtUtils/MakeMaker.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker.pm
+ok 553 # skip The pod of lib/ExtUtils/MakeMaker/Config.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/Config.pm
+ok 554 # skip The pod of lib/ExtUtils/MakeMaker/FAQ.pod is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/FAQ.pod
+ok 555 # skip The pod of lib/ExtUtils/MakeMaker/Tutorial.pod is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/Tutorial.pod
+ok 556 # skip The pod of lib/ExtUtils/MakeMaker/YAML.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/YAML.pm
+ok 557 # skip The pod of lib/ExtUtils/Manifest.pm is a duplicate of the pod for dist/ExtUtils-Manifest/lib/ExtUtils/Manifest.pm
+ok 558 # skip The pod of lib/ExtUtils/Miniperl.pm is a duplicate of the pod for minimod.pl
+ok 559 # skip The pod of lib/ExtUtils/Mkbootstrap.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Mkbootstrap.pm
+ok 560 # skip The pod of lib/ExtUtils/Mksymlists.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Mksymlists.pm
+ok 561 # skip The pod of lib/ExtUtils/Packlist.pm is a duplicate of the pod for dist/ExtUtils-Install/lib/ExtUtils/Packlist.pm
+ok 562 # skip The pod of lib/ExtUtils/ParseXS.pm is a duplicate of the pod for dist/ExtUtils-ParseXS/lib/ExtUtils/ParseXS.pm
+ok 563 - POD of lib/ExtUtils/XSSymSet.pm, excluding 1 not shown known potential problems
+ok 564 # skip The pod of lib/ExtUtils/testlib.pm is a duplicate of the pod for cpan/ExtUtils-MakeMaker/lib/ExtUtils/testlib.pm
+ok 565 # skip The pod of lib/ExtUtils/xsubpp is a duplicate of the pod for dist/ExtUtils-ParseXS/lib/ExtUtils/xsubpp
+ok 566 # skip The pod of lib/Fatal.pm is a duplicate of the pod for cpan/autodie/lib/Fatal.pm
+ok 567 # skip The pod of lib/Fcntl.pm is a duplicate of the pod for ext/Fcntl/Fcntl.pm
+ok 568 - POD of lib/File/Basename.pm, excluding 3 not shown known potential problems
+ok 569 # skip The pod of lib/File/CheckTree.pm is a duplicate of the pod for dist/File-CheckTree/lib/File/CheckTree.pm
+ok 570 - POD of lib/File/Compare.pm
+ok 571 - POD of lib/File/Copy.pm
+ok 572 - POD of lib/File/DosGlob.pm
+ok 573 # skip The pod of lib/File/Fetch.pm is a duplicate of the pod for cpan/File-Fetch/lib/File/Fetch.pm
+ok 574 - POD of lib/File/Find.pm, excluding 1 not shown known potential problems
+ok 575 # skip The pod of lib/File/Glob.pm is a duplicate of the pod for ext/File-Glob/Glob.pm
+ok 576 # skip The pod of lib/File/GlobMapper.pm is a duplicate of the pod for cpan/IO-Compress/lib/File/GlobMapper.pm
+ok 577 # skip The pod of lib/File/Path.pm is a duplicate of the pod for cpan/File-Path/lib/File/Path.pm
+ok 578 # skip The pod of lib/File/Spec.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec.pm
+ok 579 # skip The pod of lib/File/Spec/Cygwin.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Cygwin.pm
+ok 580 # skip The pod of lib/File/Spec/Epoc.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Epoc.pm
+ok 581 # skip The pod of lib/File/Spec/Functions.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Functions.pm
+ok 582 # skip The pod of lib/File/Spec/Mac.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Mac.pm
+ok 583 # skip The pod of lib/File/Spec/OS2.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/OS2.pm
+ok 584 # skip The pod of lib/File/Spec/Unix.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Unix.pm
+ok 585 # skip The pod of lib/File/Spec/VMS.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/VMS.pm
+ok 586 # skip The pod of lib/File/Spec/Win32.pm is a duplicate of the pod for dist/Cwd/lib/File/Spec/Win32.pm
+ok 587 # skip The pod of lib/File/Temp.pm is a duplicate of the pod for cpan/File-Temp/Temp.pm
+ok 588 - POD of lib/File/stat.pm
+ok 589 # skip The pod of lib/FileCache.pm is a duplicate of the pod for ext/FileCache/lib/FileCache.pm
+ok 590 - POD of lib/FileHandle.pm
+ok 591 # skip The pod of lib/Filter/Simple.pm is a duplicate of the pod for dist/Filter-Simple/lib/Filter/Simple.pm
+ok 592 # skip The pod of lib/Filter/Util/Call.pm is a duplicate of the pod for cpan/Filter-Util-Call/Call.pm
+ok 593 - POD of lib/FindBin.pm
+ok 594 # skip The pod of lib/Getopt/Long.pm is a duplicate of the pod for cpan/Getopt-Long/lib/Getopt/Long.pm
+ok 595 - POD of lib/Getopt/Std.pm, excluding 1 not shown known potential problems
+ok 596 # skip The pod of lib/HTTP/Tiny.pm is a duplicate of the pod for cpan/HTTP-Tiny/lib/HTTP/Tiny.pm
+ok 597 # skip The pod of lib/Hash/Util.pm is a duplicate of the pod for ext/Hash-Util/lib/Hash/Util.pm
+ok 598 # skip The pod of lib/Hash/Util/FieldHash.pm is a duplicate of the pod for ext/Hash-Util-FieldHash/lib/Hash/Util/FieldHash.pm
+ok 599 # skip The pod of lib/I18N/Collate.pm is a duplicate of the pod for dist/I18N-Collate/lib/I18N/Collate.pm
+ok 600 # skip The pod of lib/I18N/LangTags.pm is a duplicate of the pod for dist/I18N-LangTags/lib/I18N/LangTags.pm
+ok 601 # skip The pod of lib/I18N/LangTags/Detect.pm is a duplicate of the pod for dist/I18N-LangTags/lib/I18N/LangTags/Detect.pm
+ok 602 # skip The pod of lib/I18N/LangTags/List.pm is a duplicate of the pod for dist/I18N-LangTags/lib/I18N/LangTags/List.pm
+ok 603 # skip The pod of lib/I18N/Langinfo.pm is a duplicate of the pod for ext/I18N-Langinfo/Langinfo.pm
+ok 604 # skip The pod of lib/IO.pm is a duplicate of the pod for dist/IO/IO.pm
+ok 605 # skip The pod of lib/IO/Compress/Base.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/Base.pm
+ok 606 # skip The pod of lib/IO/Compress/Bzip2.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/Bzip2.pm
+ok 607 # skip The pod of lib/IO/Compress/Deflate.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/Deflate.pm
+ok 608 # skip The pod of lib/IO/Compress/Gzip.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/Gzip.pm
+ok 609 # skip The pod of lib/IO/Compress/RawDeflate.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/RawDeflate.pm
+ok 610 # skip The pod of lib/IO/Compress/Zip.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Compress/Zip.pm
+ok 611 # skip The pod of lib/IO/Dir.pm is a duplicate of the pod for dist/IO/lib/IO/Dir.pm
+ok 612 # skip The pod of lib/IO/File.pm is a duplicate of the pod for dist/IO/lib/IO/File.pm
+ok 613 # skip The pod of lib/IO/Handle.pm is a duplicate of the pod for dist/IO/lib/IO/Handle.pm
+ok 614 # skip The pod of lib/IO/Pipe.pm is a duplicate of the pod for dist/IO/lib/IO/Pipe.pm
+ok 615 # skip The pod of lib/IO/Poll.pm is a duplicate of the pod for dist/IO/lib/IO/Poll.pm
+ok 616 # skip The pod of lib/IO/Seekable.pm is a duplicate of the pod for dist/IO/lib/IO/Seekable.pm
+ok 617 # skip The pod of lib/IO/Select.pm is a duplicate of the pod for dist/IO/lib/IO/Select.pm
+ok 618 # skip The pod of lib/IO/Socket.pm is a duplicate of the pod for dist/IO/lib/IO/Socket.pm
+ok 619 # skip The pod of lib/IO/Socket/INET.pm is a duplicate of the pod for dist/IO/lib/IO/Socket/INET.pm
+ok 620 # skip The pod of lib/IO/Socket/UNIX.pm is a duplicate of the pod for dist/IO/lib/IO/Socket/UNIX.pm
+ok 621 # skip The pod of lib/IO/Uncompress/AnyInflate.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/AnyInflate.pm
+ok 622 # skip The pod of lib/IO/Uncompress/AnyUncompress.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/AnyUncompress.pm
+ok 623 # skip The pod of lib/IO/Uncompress/Base.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/Base.pm
+ok 624 # skip The pod of lib/IO/Uncompress/Bunzip2.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/Bunzip2.pm
+ok 625 # skip The pod of lib/IO/Uncompress/Gunzip.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/Gunzip.pm
+ok 626 # skip The pod of lib/IO/Uncompress/Inflate.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/Inflate.pm
+ok 627 # skip The pod of lib/IO/Uncompress/RawInflate.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/RawInflate.pm
+ok 628 # skip The pod of lib/IO/Uncompress/Unzip.pm is a duplicate of the pod for cpan/IO-Compress/lib/IO/Uncompress/Unzip.pm
+ok 629 # skip The pod of lib/IO/Zlib.pm is a duplicate of the pod for cpan/IO-Zlib/Zlib.pm
+ok 630 # skip The pod of lib/IPC/Cmd.pm is a duplicate of the pod for cpan/IPC-Cmd/lib/IPC/Cmd.pm
+ok 631 # skip The pod of lib/IPC/Msg.pm is a duplicate of the pod for cpan/IPC-SysV/lib/IPC/Msg.pm
+ok 632 # skip The pod of lib/IPC/Open2.pm is a duplicate of the pod for ext/IPC-Open3/lib/IPC/Open2.pm
+ok 633 # skip The pod of lib/IPC/Open3.pm is a duplicate of the pod for ext/IPC-Open3/lib/IPC/Open3.pm
+ok 634 # skip The pod of lib/IPC/Semaphore.pm is a duplicate of the pod for cpan/IPC-SysV/lib/IPC/Semaphore.pm
+ok 635 # skip The pod of lib/IPC/SharedMem.pm is a duplicate of the pod for cpan/IPC-SysV/lib/IPC/SharedMem.pm
+ok 636 # skip The pod of lib/IPC/SysV.pm is a duplicate of the pod for cpan/IPC-SysV/lib/IPC/SysV.pm
+ok 637 # skip The pod of lib/JSON/PP.pm is a duplicate of the pod for cpan/JSON-PP/lib/JSON/PP.pm
+ok 638 # skip The pod of lib/JSON/PP/Boolean.pm is a duplicate of the pod for cpan/JSON-PP/lib/JSON/PP/Boolean.pm
+ok 639 # skip The pod of lib/List/Util.pm is a duplicate of the pod for cpan/List-Util/lib/List/Util.pm
+ok 640 # skip The pod of lib/List/Util/XS.pm is a duplicate of the pod for cpan/List-Util/lib/List/Util/XS.pm
+ok 641 # skip The pod of lib/Locale/Codes.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes.pod
+ok 642 # skip The pod of lib/Locale/Codes/API.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/API.pod
+ok 643 # skip The pod of lib/Locale/Codes/Changes.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Changes.pod
+ok 644 # skip The pod of lib/Locale/Codes/Constants.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Constants.pod
+ok 645 # skip The pod of lib/Locale/Codes/Country.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Country.pod
+ok 646 # skip The pod of lib/Locale/Codes/Country_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Country_Codes.pm
+ok 647 # skip The pod of lib/Locale/Codes/Currency.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Currency.pod
+ok 648 # skip The pod of lib/Locale/Codes/Currency_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Currency_Codes.pm
+ok 649 # skip The pod of lib/Locale/Codes/LangExt.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/LangExt.pod
+ok 650 # skip The pod of lib/Locale/Codes/LangExt_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/LangExt_Codes.pm
+ok 651 # skip The pod of lib/Locale/Codes/LangVar.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/LangVar.pod
+ok 652 # skip The pod of lib/Locale/Codes/LangVar_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/LangVar_Codes.pm
+ok 653 # skip The pod of lib/Locale/Codes/Language.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Language.pod
+ok 654 # skip The pod of lib/Locale/Codes/Language_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Language_Codes.pm
+ok 655 # skip The pod of lib/Locale/Codes/Script.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Script.pod
+ok 656 # skip The pod of lib/Locale/Codes/Script_Codes.pm is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Codes/Script_Codes.pm
+ok 657 - POD of lib/Locale/Constants.pod
+ok 658 # skip The pod of lib/Locale/Country.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Country.pod
+ok 659 # skip The pod of lib/Locale/Currency.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Currency.pod
+ok 660 # skip The pod of lib/Locale/Language.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Language.pod
+ok 661 # skip The pod of lib/Locale/Maketext.pod is a duplicate of the pod for dist/Locale-Maketext/lib/Locale/Maketext.pod
+ok 662 # skip The pod of lib/Locale/Maketext/Cookbook.pod is a duplicate of the pod for dist/Locale-Maketext/lib/Locale/Maketext/Cookbook.pod
+ok 663 # skip The pod of lib/Locale/Maketext/Guts.pm is a duplicate of the pod for dist/Locale-Maketext/lib/Locale/Maketext/Guts.pm
+ok 664 # skip The pod of lib/Locale/Maketext/GutsLoader.pm is a duplicate of the pod for dist/Locale-Maketext/lib/Locale/Maketext/GutsLoader.pm
+ok 665 # skip The pod of lib/Locale/Maketext/Simple.pm is a duplicate of the pod for cpan/Locale-Maketext-Simple/lib/Locale/Maketext/Simple.pm
+ok 666 # skip The pod of lib/Locale/Maketext/TPJ13.pod is a duplicate of the pod for dist/Locale-Maketext/lib/Locale/Maketext/TPJ13.pod
+ok 667 # skip The pod of lib/Locale/Script.pod is a duplicate of the pod for cpan/Locale-Codes/lib/Locale/Script.pod
+ok 668 # skip The pod of lib/Log/Message.pm is a duplicate of the pod for cpan/Log-Message/lib/Log/Message.pm
+ok 669 # skip The pod of lib/Log/Message/Config.pm is a duplicate of the pod for cpan/Log-Message/lib/Log/Message/Config.pm
+ok 670 # skip The pod of lib/Log/Message/Handlers.pm is a duplicate of the pod for cpan/Log-Message/lib/Log/Message/Handlers.pm
+ok 671 # skip The pod of lib/Log/Message/Item.pm is a duplicate of the pod for cpan/Log-Message/lib/Log/Message/Item.pm
+ok 672 # skip The pod of lib/Log/Message/Simple.pm is a duplicate of the pod for cpan/Log-Message-Simple/lib/Log/Message/Simple.pm
+ok 673 # skip The pod of lib/MIME/Base64.pm is a duplicate of the pod for cpan/MIME-Base64/Base64.pm
+ok 674 # skip The pod of lib/MIME/QuotedPrint.pm is a duplicate of the pod for cpan/MIME-Base64/QuotedPrint.pm
+ok 675 # skip The pod of lib/Math/BigFloat.pm is a duplicate of the pod for dist/Math-BigInt/lib/Math/BigFloat.pm
+ok 676 # skip The pod of lib/Math/BigInt.pm is a duplicate of the pod for dist/Math-BigInt/lib/Math/BigInt.pm
+ok 677 # skip The pod of lib/Math/BigInt/Calc.pm is a duplicate of the pod for dist/Math-BigInt/lib/Math/BigInt/Calc.pm
+ok 678 # skip The pod of lib/Math/BigInt/CalcEmu.pm is a duplicate of the pod for dist/Math-BigInt/lib/Math/BigInt/CalcEmu.pm
+ok 679 # skip The pod of lib/Math/BigInt/FastCalc.pm is a duplicate of the pod for dist/Math-BigInt-FastCalc/lib/Math/BigInt/FastCalc.pm
+ok 680 # skip The pod of lib/Math/BigRat.pm is a duplicate of the pod for dist/Math-BigRat/lib/Math/BigRat.pm
+ok 681 # skip The pod of lib/Math/Complex.pm is a duplicate of the pod for cpan/Math-Complex/lib/Math/Complex.pm
+ok 682 # skip The pod of lib/Math/Trig.pm is a duplicate of the pod for cpan/Math-Complex/lib/Math/Trig.pm
+ok 683 # skip The pod of lib/Memoize.pm is a duplicate of the pod for cpan/Memoize/Memoize.pm
+ok 684 # skip The pod of lib/Memoize/AnyDBM_File.pm is a duplicate of the pod for cpan/Memoize/Memoize/AnyDBM_File.pm
+ok 685 # skip The pod of lib/Memoize/Expire.pm is a duplicate of the pod for cpan/Memoize/Memoize/Expire.pm
+ok 686 # skip The pod of lib/Memoize/ExpireFile.pm is a duplicate of the pod for cpan/Memoize/Memoize/ExpireFile.pm
+ok 687 # skip The pod of lib/Memoize/ExpireTest.pm is a duplicate of the pod for cpan/Memoize/Memoize/ExpireTest.pm
+ok 688 # skip The pod of lib/Memoize/NDBM_File.pm is a duplicate of the pod for cpan/Memoize/Memoize/NDBM_File.pm
+ok 689 # skip The pod of lib/Memoize/SDBM_File.pm is a duplicate of the pod for cpan/Memoize/Memoize/SDBM_File.pm
+ok 690 # skip The pod of lib/Memoize/Storable.pm is a duplicate of the pod for cpan/Memoize/Memoize/Storable.pm
+ok 691 # skip The pod of lib/Module/Build.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build.pm
+ok 692 # skip The pod of lib/Module/Build/API.pod is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/API.pod
+ok 693 # skip The pod of lib/Module/Build/Authoring.pod is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Authoring.pod
+ok 694 # skip The pod of lib/Module/Build/Base.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Base.pm
+ok 695 # skip The pod of lib/Module/Build/Bundling.pod is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Bundling.pod
+ok 696 # skip The pod of lib/Module/Build/Compat.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Compat.pm
+ok 697 # skip The pod of lib/Module/Build/ConfigData.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/ConfigData.pm
+ok 698 # skip The pod of lib/Module/Build/Cookbook.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Cookbook.pm
+ok 699 # skip The pod of lib/Module/Build/ModuleInfo.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/ModuleInfo.pm
+ok 700 # skip The pod of lib/Module/Build/Notes.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Notes.pm
+ok 701 # skip The pod of lib/Module/Build/PPMMaker.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/PPMMaker.pm
+ok 702 # skip The pod of lib/Module/Build/Platform/Amiga.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/Amiga.pm
+ok 703 # skip The pod of lib/Module/Build/Platform/Default.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/Default.pm
+ok 704 # skip The pod of lib/Module/Build/Platform/EBCDIC.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/EBCDIC.pm
+ok 705 # skip The pod of lib/Module/Build/Platform/MPEiX.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/MPEiX.pm
+ok 706 # skip The pod of lib/Module/Build/Platform/MacOS.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/MacOS.pm
+ok 707 # skip The pod of lib/Module/Build/Platform/RiscOS.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/RiscOS.pm
+ok 708 # skip The pod of lib/Module/Build/Platform/Unix.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/Unix.pm
+ok 709 # skip The pod of lib/Module/Build/Platform/VMS.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/VMS.pm
+ok 710 # skip The pod of lib/Module/Build/Platform/VOS.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/VOS.pm
+ok 711 # skip The pod of lib/Module/Build/Platform/Windows.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/Windows.pm
+ok 712 # skip The pod of lib/Module/Build/Platform/aix.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/aix.pm
+ok 713 # skip The pod of lib/Module/Build/Platform/cygwin.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/cygwin.pm
+ok 714 # skip The pod of lib/Module/Build/Platform/darwin.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/darwin.pm
+ok 715 # skip The pod of lib/Module/Build/Platform/os2.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Platform/os2.pm
+ok 716 # skip The pod of lib/Module/Build/Version.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/Version.pm
+ok 717 # skip The pod of lib/Module/Build/YAML.pm is a duplicate of the pod for cpan/Module-Build/lib/Module/Build/YAML.pm
+ok 718 # skip The pod of lib/Module/CoreList.pm is a duplicate of the pod for dist/Module-CoreList/lib/Module/CoreList.pm
+ok 719 # skip The pod of lib/Module/Load.pm is a duplicate of the pod for cpan/Module-Load/lib/Module/Load.pm
+ok 720 # skip The pod of lib/Module/Load/Conditional.pm is a duplicate of the pod for cpan/Module-Load-Conditional/lib/Module/Load/Conditional.pm
+ok 721 # skip The pod of lib/Module/Loaded.pm is a duplicate of the pod for cpan/Module-Loaded/lib/Module/Loaded.pm
+ok 722 # skip The pod of lib/Module/Metadata.pm is a duplicate of the pod for cpan/Module-Metadata/lib/Module/Metadata.pm
+ok 723 # skip The pod of lib/Module/Pluggable.pm is a duplicate of the pod for cpan/Module-Pluggable/lib/Module/Pluggable.pm
+ok 724 # skip The pod of lib/Module/Pluggable/Object.pm is a duplicate of the pod for cpan/Module-Pluggable/lib/Module/Pluggable/Object.pm
+ok 725 # skip The pod of lib/NEXT.pm is a duplicate of the pod for cpan/NEXT/lib/NEXT.pm
+ok 726 # skip The pod of lib/Net/Cmd.pm is a duplicate of the pod for cpan/libnet/Net/Cmd.pm
+ok 727 # skip The pod of lib/Net/Config.pm is a duplicate of the pod for cpan/libnet/Net/Config.pm
+ok 728 # skip The pod of lib/Net/Domain.pm is a duplicate of the pod for cpan/libnet/Net/Domain.pm
+ok 729 # skip The pod of lib/Net/FTP.pm is a duplicate of the pod for cpan/libnet/Net/FTP.pm
+ok 730 # skip The pod of lib/Net/NNTP.pm is a duplicate of the pod for cpan/libnet/Net/NNTP.pm
+ok 731 # skip The pod of lib/Net/Netrc.pm is a duplicate of the pod for cpan/libnet/Net/Netrc.pm
+ok 732 # skip The pod of lib/Net/POP3.pm is a duplicate of the pod for cpan/libnet/Net/POP3.pm
+ok 733 # skip The pod of lib/Net/Ping.pm is a duplicate of the pod for dist/Net-Ping/lib/Net/Ping.pm
+ok 734 # skip The pod of lib/Net/SMTP.pm is a duplicate of the pod for cpan/libnet/Net/SMTP.pm
+ok 735 # skip The pod of lib/Net/Time.pm is a duplicate of the pod for cpan/libnet/Net/Time.pm
+ok 736 - POD of lib/Net/hostent.pm
+ok 737 # skip The pod of lib/Net/libnetFAQ.pod is a duplicate of the pod for cpan/libnet/Net/libnetFAQ.pod
+ok 738 - POD of lib/Net/netent.pm
+ok 739 - POD of lib/Net/protoent.pm
+ok 740 - POD of lib/Net/servent.pm
+ok 741 # skip The pod of lib/O.pm is a duplicate of the pod for ext/B/O.pm
+ok 742 # skip The pod of lib/Object/Accessor.pm is a duplicate of the pod for cpan/Object-Accessor/lib/Object/Accessor.pm
+ok 743 # skip The pod of lib/Opcode.pm is a duplicate of the pod for ext/Opcode/Opcode.pm
+ok 744 # skip The pod of lib/POSIX.pod is a duplicate of the pod for ext/POSIX/lib/POSIX.pod
+ok 745 # skip The pod of lib/Package/Constants.pm is a duplicate of the pod for cpan/Package-Constants/lib/Package/Constants.pm
+ok 746 # skip The pod of lib/Params/Check.pm is a duplicate of the pod for cpan/Params-Check/lib/Params/Check.pm
+ok 747 # skip The pod of lib/Parse/CPAN/Meta.pm is a duplicate of the pod for cpan/Parse-CPAN-Meta/lib/Parse/CPAN/Meta.pm
+ok 748 # skip The pod of lib/Perl/OSType.pm is a duplicate of the pod for cpan/Perl-OSType/lib/Perl/OSType.pm
+ok 749 - POD of lib/PerlIO.pm, excluding 2 not shown known potential problems
+ok 750 # skip The pod of lib/PerlIO/encoding.pm is a duplicate of the pod for ext/PerlIO-encoding/encoding.pm
+ok 751 # skip The pod of lib/PerlIO/scalar.pm is a duplicate of the pod for ext/PerlIO-scalar/scalar.pm
+ok 752 # skip The pod of lib/PerlIO/via.pm is a duplicate of the pod for ext/PerlIO-via/via.pm
+ok 753 # skip The pod of lib/PerlIO/via/QuotedPrint.pm is a duplicate of the pod for cpan/PerlIO-via-QuotedPrint/lib/PerlIO/via/QuotedPrint.pm
+ok 754 # skip The pod of lib/Pod/Checker.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/Checker.pm
+ok 755 # skip The pod of lib/Pod/Escapes.pm is a duplicate of the pod for cpan/Pod-Escapes/lib/Pod/Escapes.pm
+ok 756 # skip The pod of lib/Pod/Find.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/Find.pm
+ok 757 - POD of lib/Pod/Functions.pm
+ok 758 # skip The pod of lib/Pod/Html.pm is a duplicate of the pod for ext/Pod-Html/lib/Pod/Html.pm
+ok 759 # skip The pod of lib/Pod/InputObjects.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/InputObjects.pm
+ok 760 # skip The pod of lib/Pod/LaTeX.pm is a duplicate of the pod for cpan/Pod-LaTeX/lib/Pod/LaTeX.pm
+ok 761 # skip The pod of lib/Pod/Man.pm is a duplicate of the pod for cpan/podlators/lib/Pod/Man.pm
+ok 762 # skip The pod of lib/Pod/ParseLink.pm is a duplicate of the pod for cpan/podlators/lib/Pod/ParseLink.pm
+ok 763 # skip The pod of lib/Pod/ParseUtils.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/ParseUtils.pm
+ok 764 # skip The pod of lib/Pod/Parser.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/Parser.pm
+ok 765 # skip The pod of lib/Pod/Perldoc.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc.pm
+ok 766 # skip The pod of lib/Pod/Perldoc/BaseTo.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/BaseTo.pm
+ok 767 # skip The pod of lib/Pod/Perldoc/GetOptsOO.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/GetOptsOO.pm
+ok 768 # skip The pod of lib/Pod/Perldoc/ToChecker.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToChecker.pm
+ok 769 # skip The pod of lib/Pod/Perldoc/ToMan.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToMan.pm
+ok 770 # skip The pod of lib/Pod/Perldoc/ToNroff.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToNroff.pm
+ok 771 # skip The pod of lib/Pod/Perldoc/ToPod.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToPod.pm
+ok 772 # skip The pod of lib/Pod/Perldoc/ToRtf.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToRtf.pm
+ok 773 # skip The pod of lib/Pod/Perldoc/ToText.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToText.pm
+ok 774 # skip The pod of lib/Pod/Perldoc/ToTk.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToTk.pm
+ok 775 # skip The pod of lib/Pod/Perldoc/ToXml.pm is a duplicate of the pod for dist/Pod-Perldoc/lib/Pod/Perldoc/ToXml.pm
+ok 776 # skip The pod of lib/Pod/PlainText.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/PlainText.pm
+ok 777 # skip The pod of lib/Pod/Select.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/Select.pm
+ok 778 # skip The pod of lib/Pod/Simple.pod is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple.pod
+ok 779 # skip The pod of lib/Pod/Simple/Checker.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Checker.pm
+ok 780 # skip The pod of lib/Pod/Simple/Debug.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Debug.pm
+ok 781 # skip The pod of lib/Pod/Simple/DumpAsText.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/DumpAsText.pm
+ok 782 # skip The pod of lib/Pod/Simple/DumpAsXML.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/DumpAsXML.pm
+ok 783 # skip The pod of lib/Pod/Simple/HTML.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/HTML.pm
+ok 784 # skip The pod of lib/Pod/Simple/HTMLBatch.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/HTMLBatch.pm
+ok 785 # skip The pod of lib/Pod/Simple/LinkSection.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/LinkSection.pm
+ok 786 # skip The pod of lib/Pod/Simple/Methody.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Methody.pm
+ok 787 # skip The pod of lib/Pod/Simple/PullParser.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/PullParser.pm
+ok 788 # skip The pod of lib/Pod/Simple/PullParserEndToken.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/PullParserEndToken.pm
+ok 789 # skip The pod of lib/Pod/Simple/PullParserStartToken.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/PullParserStartToken.pm
+ok 790 # skip The pod of lib/Pod/Simple/PullParserTextToken.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/PullParserTextToken.pm
+ok 791 # skip The pod of lib/Pod/Simple/PullParserToken.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/PullParserToken.pm
+ok 792 # skip The pod of lib/Pod/Simple/RTF.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/RTF.pm
+ok 793 # skip The pod of lib/Pod/Simple/Search.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Search.pm
+ok 794 # skip The pod of lib/Pod/Simple/SimpleTree.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/SimpleTree.pm
+ok 795 # skip The pod of lib/Pod/Simple/Subclassing.pod is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Subclassing.pod
+ok 796 # skip The pod of lib/Pod/Simple/Text.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/Text.pm
+ok 797 # skip The pod of lib/Pod/Simple/TextContent.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/TextContent.pm
+ok 798 # skip The pod of lib/Pod/Simple/XHTML.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/XHTML.pm
+ok 799 # skip The pod of lib/Pod/Simple/XMLOutStream.pm is a duplicate of the pod for cpan/Pod-Simple/lib/Pod/Simple/XMLOutStream.pm
+ok 800 # skip The pod of lib/Pod/Text.pm is a duplicate of the pod for cpan/podlators/lib/Pod/Text.pm
+ok 801 # skip The pod of lib/Pod/Text/Color.pm is a duplicate of the pod for cpan/podlators/lib/Pod/Text/Color.pm
+ok 802 - POD of lib/Pod/Text/Overstrike.pm, excluding 1 not shown known potential problems
+ok 803 # skip The pod of lib/Pod/Text/Termcap.pm is a duplicate of the pod for cpan/podlators/lib/Pod/Text/Termcap.pm
+ok 804 # skip The pod of lib/Pod/Usage.pm is a duplicate of the pod for cpan/Pod-Parser/lib/Pod/Usage.pm
+ok 805 # skip The pod of lib/SDBM_File.pm is a duplicate of the pod for ext/SDBM_File/SDBM_File.pm
+ok 806 # skip The pod of lib/Safe.pm is a duplicate of the pod for dist/Safe/Safe.pm
+ok 807 # skip The pod of lib/Scalar/Util.pm is a duplicate of the pod for cpan/List-Util/lib/Scalar/Util.pm
+ok 808 - POD of lib/Search/Dict.pm
+ok 809 - POD of lib/SelectSaver.pm
+ok 810 # skip The pod of lib/SelfLoader.pm is a duplicate of the pod for dist/SelfLoader/lib/SelfLoader.pm
+ok 811 # skip The pod of lib/Socket.pm is a duplicate of the pod for ext/Socket/Socket.pm
+ok 812 # skip The pod of lib/Storable.pm is a duplicate of the pod for dist/Storable/Storable.pm
+ok 813 - POD of lib/Symbol.pm
+ok 814 # skip The pod of lib/Sys/Hostname.pm is a duplicate of the pod for ext/Sys-Hostname/Hostname.pm
+ok 815 # skip The pod of lib/Sys/Syslog.pm is a duplicate of the pod for cpan/Sys-Syslog/Syslog.pm
+ok 816 # skip The pod of lib/TAP/Base.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Base.pm
+ok 817 # skip The pod of lib/TAP/Formatter/Base.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Base.pm
+ok 818 # skip The pod of lib/TAP/Formatter/Color.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Color.pm
+ok 819 # skip The pod of lib/TAP/Formatter/Console.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Console.pm
+ok 820 # skip The pod of lib/TAP/Formatter/Console/ParallelSession.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Console/ParallelSession.pm
+ok 821 # skip The pod of lib/TAP/Formatter/Console/Session.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Console/Session.pm
+ok 822 # skip The pod of lib/TAP/Formatter/File.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/File.pm
+ok 823 # skip The pod of lib/TAP/Formatter/File/Session.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/File/Session.pm
+ok 824 # skip The pod of lib/TAP/Formatter/Session.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Formatter/Session.pm
+ok 825 # skip The pod of lib/TAP/Harness.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Harness.pm
+ok 826 # skip The pod of lib/TAP/Harness/Beyond.pod is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Harness/Beyond.pod
+ok 827 # skip The pod of lib/TAP/Object.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Object.pm
+ok 828 # skip The pod of lib/TAP/Parser.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser.pm
+ok 829 # skip The pod of lib/TAP/Parser/Aggregator.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Aggregator.pm
+ok 830 # skip The pod of lib/TAP/Parser/Grammar.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Grammar.pm
+ok 831 # skip The pod of lib/TAP/Parser/Iterator.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Iterator.pm
+ok 832 # skip The pod of lib/TAP/Parser/Iterator/Array.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Iterator/Array.pm
+ok 833 # skip The pod of lib/TAP/Parser/Iterator/Process.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Iterator/Process.pm
+ok 834 # skip The pod of lib/TAP/Parser/Iterator/Stream.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Iterator/Stream.pm
+ok 835 # skip The pod of lib/TAP/Parser/IteratorFactory.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/IteratorFactory.pm
+ok 836 # skip The pod of lib/TAP/Parser/Multiplexer.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Multiplexer.pm
+ok 837 # skip The pod of lib/TAP/Parser/Result.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result.pm
+ok 838 # skip The pod of lib/TAP/Parser/Result/Bailout.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Bailout.pm
+ok 839 # skip The pod of lib/TAP/Parser/Result/Comment.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Comment.pm
+ok 840 # skip The pod of lib/TAP/Parser/Result/Plan.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Plan.pm
+ok 841 # skip The pod of lib/TAP/Parser/Result/Pragma.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Pragma.pm
+ok 842 # skip The pod of lib/TAP/Parser/Result/Test.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Test.pm
+ok 843 # skip The pod of lib/TAP/Parser/Result/Unknown.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Unknown.pm
+ok 844 # skip The pod of lib/TAP/Parser/Result/Version.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/Version.pm
+ok 845 # skip The pod of lib/TAP/Parser/Result/YAML.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Result/YAML.pm
+ok 846 # skip The pod of lib/TAP/Parser/ResultFactory.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/ResultFactory.pm
+ok 847 # skip The pod of lib/TAP/Parser/Scheduler.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Scheduler.pm
+ok 848 # skip The pod of lib/TAP/Parser/Scheduler/Job.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Scheduler/Job.pm
+ok 849 # skip The pod of lib/TAP/Parser/Scheduler/Spinner.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Scheduler/Spinner.pm
+ok 850 # skip The pod of lib/TAP/Parser/Source.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Source.pm
+ok 851 # skip The pod of lib/TAP/Parser/SourceHandler.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler.pm
+ok 852 # skip The pod of lib/TAP/Parser/SourceHandler/Executable.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Executable.pm
+ok 853 # skip The pod of lib/TAP/Parser/SourceHandler/File.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/File.pm
+ok 854 # skip The pod of lib/TAP/Parser/SourceHandler/Handle.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Handle.pm
+ok 855 # skip The pod of lib/TAP/Parser/SourceHandler/Perl.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Perl.pm
+ok 856 # skip The pod of lib/TAP/Parser/SourceHandler/RawTAP.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/RawTAP.pm
+ok 857 # skip The pod of lib/TAP/Parser/Utils.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/Utils.pm
+ok 858 # skip The pod of lib/TAP/Parser/YAMLish/Reader.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/YAMLish/Reader.pm
+ok 859 # skip The pod of lib/TAP/Parser/YAMLish/Writer.pm is a duplicate of the pod for cpan/Test-Harness/lib/TAP/Parser/YAMLish/Writer.pm
+ok 860 # skip The pod of lib/Term/ANSIColor.pm is a duplicate of the pod for cpan/Term-ANSIColor/ANSIColor.pm
+ok 861 # skip The pod of lib/Term/Cap.pm is a duplicate of the pod for cpan/Term-Cap/Cap.pm
+ok 862 - POD of lib/Term/Complete.pm
+ok 863 - POD of lib/Term/ReadLine.pm, excluding 1 not shown known potential problems
+ok 864 # skip The pod of lib/Term/UI.pm is a duplicate of the pod for cpan/Term-UI/lib/Term/UI.pm
+ok 865 # skip The pod of lib/Term/UI/History.pm is a duplicate of the pod for cpan/Term-UI/lib/Term/UI/History.pm
+ok 866 # skip The pod of lib/Test.pm is a duplicate of the pod for cpan/Test/lib/Test.pm
+ok 867 # skip The pod of lib/Test/Builder.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/Builder.pm
+ok 868 # skip The pod of lib/Test/Builder/Module.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/Builder/Module.pm
+ok 869 # skip The pod of lib/Test/Builder/Tester.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/Builder/Tester.pm
+ok 870 # skip The pod of lib/Test/Builder/Tester/Color.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/Builder/Tester/Color.pm
+ok 871 # skip The pod of lib/Test/Harness.pm is a duplicate of the pod for cpan/Test-Harness/lib/Test/Harness.pm
+ok 872 # skip The pod of lib/Test/More.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/More.pm
+ok 873 # skip The pod of lib/Test/Simple.pm is a duplicate of the pod for cpan/Test-Simple/lib/Test/Simple.pm
+ok 874 # skip The pod of lib/Test/Tutorial.pod is a duplicate of the pod for cpan/Test-Simple/lib/Test/Tutorial.pod
+ok 875 # skip The pod of lib/Text/Abbrev.pm is a duplicate of the pod for dist/Text-Abbrev/lib/Text/Abbrev.pm
+ok 876 # skip The pod of lib/Text/Balanced.pm is a duplicate of the pod for cpan/Text-Balanced/lib/Text/Balanced.pm
+ok 877 # skip The pod of lib/Text/ParseWords.pm is a duplicate of the pod for cpan/Text-ParseWords/lib/Text/ParseWords.pm
+ok 878 # skip The pod of lib/Text/Soundex.pm is a duplicate of the pod for cpan/Text-Soundex/Soundex.pm
+ok 879 # skip The pod of lib/Text/Tabs.pm is a duplicate of the pod for cpan/Text-Tabs/lib/Text/Tabs.pm
+ok 880 # skip The pod of lib/Text/Wrap.pm is a duplicate of the pod for cpan/Text-Tabs/lib/Text/Wrap.pm
+ok 881 - POD of lib/Thread.pm
+ok 882 # skip The pod of lib/Thread/Queue.pm is a duplicate of the pod for dist/Thread-Queue/lib/Thread/Queue.pm
+ok 883 # skip The pod of lib/Thread/Semaphore.pm is a duplicate of the pod for dist/Thread-Semaphore/lib/Thread/Semaphore.pm
+ok 884 - POD of lib/Tie/Array.pm, excluding 1 not shown known potential problems
+ok 885 # skip The pod of lib/Tie/File.pm is a duplicate of the pod for cpan/Tie-File/lib/Tie/File.pm
+ok 886 - POD of lib/Tie/Handle.pm
+ok 887 - POD of lib/Tie/Hash.pm, excluding 3 not shown known potential problems
+ok 888 # skip The pod of lib/Tie/Hash/NamedCapture.pm is a duplicate of the pod for ext/Tie-Hash-NamedCapture/NamedCapture.pm
+ok 889 # skip The pod of lib/Tie/Memoize.pm is a duplicate of the pod for ext/Tie-Memoize/lib/Tie/Memoize.pm
+ok 890 # skip The pod of lib/Tie/RefHash.pm is a duplicate of the pod for cpan/Tie-RefHash/lib/Tie/RefHash.pm
+ok 891 - POD of lib/Tie/Scalar.pm, excluding 1 not shown known potential problems
+ok 892 - POD of lib/Tie/StdHandle.pm
+ok 893 - POD of lib/Tie/SubstrHash.pm
+ok 894 # skip The pod of lib/Time/HiRes.pm is a duplicate of the pod for cpan/Time-HiRes/HiRes.pm
+ok 895 # skip The pod of lib/Time/Local.pm is a duplicate of the pod for cpan/Time-Local/lib/Time/Local.pm
+ok 896 # skip The pod of lib/Time/Piece.pm is a duplicate of the pod for cpan/Time-Piece/Piece.pm
+ok 897 # skip The pod of lib/Time/Seconds.pm is a duplicate of the pod for cpan/Time-Piece/Seconds.pm
+ok 898 - POD of lib/Time/gmtime.pm
+ok 899 - POD of lib/Time/localtime.pm
+ok 900 - POD of lib/Time/tm.pm
+ok 901 - POD of lib/UNIVERSAL.pm
+ok 902 # skip The pod of lib/Unicode/Collate.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate.pm
+ok 903 # skip The pod of lib/Unicode/Collate/CJK/Big5.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/Big5.pm
+ok 904 # skip The pod of lib/Unicode/Collate/CJK/GB2312.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/GB2312.pm
+ok 905 # skip The pod of lib/Unicode/Collate/CJK/JISX0208.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/JISX0208.pm
+ok 906 # skip The pod of lib/Unicode/Collate/CJK/Korean.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/Korean.pm
+ok 907 # skip The pod of lib/Unicode/Collate/CJK/Pinyin.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/Pinyin.pm
+ok 908 # skip The pod of lib/Unicode/Collate/CJK/Stroke.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/CJK/Stroke.pm
+ok 909 # skip The pod of lib/Unicode/Collate/Locale.pm is a duplicate of the pod for cpan/Unicode-Collate/Collate/Locale.pm
+ok 910 # skip The pod of lib/Unicode/Normalize.pm is a duplicate of the pod for cpan/Unicode-Normalize/Normalize.pm
+ok 911 - POD of lib/Unicode/UCD.pm, excluding 1 not shown known potential problems
+ok 912 - POD of lib/User/grent.pm
+ok 913 - POD of lib/User/pwent.pm
+ok 914 # skip The pod of lib/Version/Requirements.pm is a duplicate of the pod for cpan/Version-Requirements/lib/Version/Requirements.pm
+ok 915 # skip The pod of lib/XS/APItest.pm is a duplicate of the pod for ext/XS-APItest/APItest.pm
+ok 916 # skip The pod of lib/XS/Typemap.pm is a duplicate of the pod for ext/XS-Typemap/Typemap.pm
+ok 917 # skip The pod of lib/XSLoader.pm is a duplicate of the pod for dist/XSLoader/XSLoader.pm
+ok 918 # skip The pod of lib/attributes.pm is a duplicate of the pod for ext/attributes/attributes.pm
+ok 919 # skip The pod of lib/autodie.pm is a duplicate of the pod for cpan/autodie/lib/autodie.pm
+ok 920 # skip The pod of lib/autodie/exception.pm is a duplicate of the pod for cpan/autodie/lib/autodie/exception.pm
+ok 921 # skip The pod of lib/autodie/exception/system.pm is a duplicate of the pod for cpan/autodie/lib/autodie/exception/system.pm
+ok 922 # skip The pod of lib/autodie/hints.pm is a duplicate of the pod for cpan/autodie/lib/autodie/hints.pm
+ok 923 # skip The pod of lib/autouse.pm is a duplicate of the pod for dist/autouse/lib/autouse.pm
+ok 924 # skip The pod of lib/base.pm is a duplicate of the pod for dist/base/lib/base.pm
+ok 925 # skip The pod of lib/bigint.pm is a duplicate of the pod for dist/bignum/lib/bigint.pm
+ok 926 # skip The pod of lib/bignum.pm is a duplicate of the pod for dist/bignum/lib/bignum.pm
+ok 927 # skip The pod of lib/bigrat.pm is a duplicate of the pod for dist/bignum/lib/bigrat.pm
+ok 928 - POD of lib/blib.pm
+ok 929 - POD of lib/bytes.pm
+ok 930 - POD of lib/charnames.pm
+ok 931 # skip The pod of lib/constant.pm is a duplicate of the pod for dist/constant/lib/constant.pm
+ok 932 - POD of lib/deprecate.pm, excluding 2 not shown known potential problems
+ok 933 # skip The pod of lib/diagnostics.pm is a duplicate of the pod for utils/splain
+ok 934 # skip The pod of lib/encoding.pm is a duplicate of the pod for cpan/Encode/encoding.pm
+ok 935 # skip The pod of lib/encoding/warnings.pm is a duplicate of the pod for cpan/encoding-warnings/lib/encoding/warnings.pm
+ok 936 - POD of lib/feature.pm
+ok 937 # skip The pod of lib/fields.pm is a duplicate of the pod for dist/base/lib/fields.pm
+ok 938 - POD of lib/filetest.pm
+ok 939 # skip The pod of lib/if.pm is a duplicate of the pod for dist/if/if.pm
+ok 940 # skip The pod of lib/inc/latest.pm is a duplicate of the pod for cpan/Module-Build/lib/inc/latest.pm
+ok 941 - POD of lib/integer.pm, excluding 1 not shown known potential problems
+ok 942 - POD of lib/less.pm
+ok 943 # skip The pod of lib/lib.pm is a duplicate of the pod for dist/lib/lib.pm
+ok 944 - POD of lib/locale.pm
+ok 945 # skip The pod of lib/mro.pm is a duplicate of the pod for ext/mro/mro.pm
+ok 946 - POD of lib/open.pm
+ok 947 # skip The pod of lib/ops.pm is a duplicate of the pod for ext/Opcode/ops.pm
+ok 948 - POD of lib/overload.pm, excluding 1 not shown known potential problems
+ok 949 - POD of lib/overloading.pm
+ok 950 # skip The pod of lib/parent.pm is a duplicate of the pod for cpan/parent/lib/parent.pm
+ok 951 - POD of lib/perl5db.pl, excluding 2 not shown known potential problems
+ok 952 # skip The pod of lib/re.pm is a duplicate of the pod for ext/re/re.pm
+ok 953 - POD of lib/sigtrap.pm
+ok 954 - POD of lib/sort.pm
+ok 955 - POD of lib/strict.pm, excluding 1 not shown known potential problems
+ok 956 - POD of lib/subs.pm
+ok 957 # skip The pod of lib/threads.pm is a duplicate of the pod for dist/threads/lib/threads.pm
+ok 958 # skip The pod of lib/threads/shared.pm is a duplicate of the pod for dist/threads-shared/lib/threads/shared.pm
+ok 959 - POD of lib/utf8.pm, excluding 4 not shown known potential problems
+ok 960 - POD of lib/vars.pm
+ok 961 - POD of lib/version.pod, excluding 2 not shown known potential problems
+ok 962 - POD of lib/version/Internals.pod, excluding 2 not shown known potential problems
+ok 963 - POD of lib/vmsish.pm, excluding 1 not shown known potential problems
+ok 964 # skip The pod of lib/warnings.pm is a duplicate of the pod for regen/warnings.pl
+ok 965 - POD of lib/warnings/register.pm
+ok 966 # skip pod/perl5004delta.pod is a stable perldelta
+ok 967 # skip pod/perl5005delta.pod is a stable perldelta
+ok 968 # skip pod/perl5100delta.pod is a stable perldelta
+ok 969 # skip pod/perl5101delta.pod is a stable perldelta
+ok 970 # skip pod/perl5110delta.pod is a stable perldelta
+ok 971 # skip pod/perl5111delta.pod is a stable perldelta
+ok 972 # skip pod/perl5112delta.pod is a stable perldelta
+ok 973 # skip pod/perl5113delta.pod is a stable perldelta
+ok 974 # skip pod/perl5114delta.pod is a stable perldelta
+ok 975 # skip pod/perl5115delta.pod is a stable perldelta
+ok 976 # skip pod/perl5120delta.pod is a stable perldelta
+ok 977 # skip pod/perl5121delta.pod is a stable perldelta
+ok 978 # skip pod/perl5122delta.pod is a stable perldelta
+ok 979 - POD of pod/perl5123delta.pod, excluding 1 not shown known potential problems
+ok 980 # skip pod/perl5124delta.pod is a stable perldelta
+ok 981 # skip pod/perl5130delta.pod is a stable perldelta
+ok 982 # skip pod/perl51310delta.pod is a stable perldelta
+ok 983 # skip pod/perl51311delta.pod is a stable perldelta
+ok 984 # skip pod/perl5131delta.pod is a stable perldelta
+ok 985 # skip pod/perl5132delta.pod is a stable perldelta
+ok 986 # skip pod/perl5133delta.pod is a stable perldelta
+ok 987 # skip pod/perl5134delta.pod is a stable perldelta
+ok 988 # skip pod/perl5135delta.pod is a stable perldelta
+ok 989 # skip pod/perl5136delta.pod is a stable perldelta
+ok 990 # skip pod/perl5137delta.pod is a stable perldelta
+ok 991 # skip pod/perl5138delta.pod is a stable perldelta
+ok 992 # skip pod/perl5139delta.pod is a stable perldelta
+ok 993 # skip pod/perl5140delta.pod is a stable perldelta
+ok 994 # skip pod/perl5150delta.pod is a stable perldelta
+ok 995 # skip The pod of pod/perl5151delta.pod is a duplicate of the pod for pod/perldelta.pod
+ok 996 # skip pod/perl561delta.pod is a stable perldelta
+ok 997 # skip pod/perl56delta.pod is a stable perldelta
+ok 998 # skip pod/perl570delta.pod is a stable perldelta
+ok 999 # skip pod/perl571delta.pod is a stable perldelta
+ok 1000 # skip pod/perl572delta.pod is a stable perldelta
+ok 1001 # skip pod/perl573delta.pod is a stable perldelta
+ok 1002 # skip pod/perl581delta.pod is a stable perldelta, but parsed for its interior links
+ok 1003 # skip pod/perl582delta.pod is a stable perldelta
+ok 1004 # skip pod/perl583delta.pod is a stable perldelta
+ok 1005 # skip pod/perl584delta.pod is a stable perldelta
+ok 1006 # skip pod/perl585delta.pod is a stable perldelta
+ok 1007 # skip pod/perl586delta.pod is a stable perldelta
+ok 1008 # skip pod/perl587delta.pod is a stable perldelta
+ok 1009 # skip pod/perl588delta.pod is a stable perldelta
+ok 1010 # skip pod/perl589delta.pod is a stable perldelta
+ok 1011 # skip pod/perl58delta.pod is a stable perldelta, but parsed for its interior links
+ok 1012 # skip pod/perl590delta.pod is a stable perldelta
+ok 1013 # skip pod/perl591delta.pod is a stable perldelta
+ok 1014 # skip pod/perl592delta.pod is a stable perldelta
+ok 1015 # skip pod/perl593delta.pod is a stable perldelta
+ok 1016 # skip pod/perl594delta.pod is a stable perldelta
+ok 1017 # skip pod/perl595delta.pod is a stable perldelta
+ok 1018 # skip pod/perltoc.pod dependent on component pods
+ok 1019 # skip CPAN is upstream for cpan/Archive-Extract/lib/Archive/Extract.pm
+ok 1020 # skip CPAN is upstream for cpan/Archive-Tar/bin/ptar
+ok 1021 # skip CPAN is upstream for cpan/Archive-Tar/bin/ptardiff
+ok 1022 # skip CPAN is upstream for cpan/Archive-Tar/bin/ptargrep
+ok 1023 # skip CPAN is upstream for cpan/Archive-Tar/lib/Archive/Tar.pm
+ok 1024 # skip CPAN is upstream for cpan/Archive-Tar/lib/Archive/Tar/File.pm
+ok 1025 # skip CPAN is upstream for cpan/AutoLoader/lib/AutoLoader.pm
+ok 1026 # skip CPAN is upstream for cpan/AutoLoader/lib/AutoSplit.pm
+ok 1027 # skip CPAN is upstream for cpan/B-Debug/Debug.pm
+ok 1028 # skip CPAN is upstream for cpan/CGI/lib/CGI.pm
+ok 1029 # skip CPAN is upstream for cpan/CGI/lib/CGI/Apache.pm
+ok 1030 # skip CPAN is upstream for cpan/CGI/lib/CGI/Carp.pm
+ok 1031 # skip CPAN is upstream for cpan/CGI/lib/CGI/Cookie.pm
+ok 1032 # skip CPAN is upstream for cpan/CGI/lib/CGI/Fast.pm
+ok 1033 # skip CPAN is upstream for cpan/CGI/lib/CGI/Pretty.pm
+ok 1034 # skip CPAN is upstream for cpan/CGI/lib/CGI/Push.pm
+ok 1035 # skip CPAN is upstream for cpan/CGI/lib/CGI/Switch.pm
+ok 1036 # skip CPAN is upstream for cpan/CGI/lib/CGI/Util.pm
+ok 1037 # skip CPAN is upstream for cpan/CPAN-Meta-YAML/lib/CPAN/Meta/YAML.pm
+ok 1038 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta.pm
+ok 1039 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/Converter.pm
+ok 1040 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/Feature.pm
+ok 1041 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/History.pm
+ok 1042 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/Prereqs.pm
+ok 1043 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/Spec.pm
+ok 1044 # skip CPAN is upstream for cpan/CPAN-Meta/lib/CPAN/Meta/Validator.pm
+ok 1045 # skip CPAN is upstream for cpan/CPAN/lib/App/Cpan.pm
+ok 1046 # skip CPAN is upstream for cpan/CPAN/lib/CPAN.pm
+ok 1047 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/API/HOWTO.pod
+ok 1048 # skip The pod of cpan/CPAN/lib/CPAN/Debug.pm is a duplicate of the pod for lib/CPAN/Debug.pm
+ok 1049 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/Distroprefs.pm
+ok 1050 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/FirstTime.pm
+ok 1051 # skip The pod of cpan/CPAN/lib/CPAN/HandleConfig.pm is a duplicate of the pod for lib/CPAN/HandleConfig.pm
+ok 1052 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/Kwalify.pm
+ok 1053 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/Nox.pm
+ok 1054 # skip The pod of cpan/CPAN/lib/CPAN/Queue.pm is a duplicate of the pod for lib/CPAN/Debug.pm
+ok 1055 # skip The pod of cpan/CPAN/lib/CPAN/Tarzip.pm is a duplicate of the pod for lib/CPAN/Debug.pm
+ok 1056 # skip CPAN is upstream for cpan/CPAN/lib/CPAN/Version.pm
+ok 1057 # skip CPAN is upstream for cpan/CPAN/scripts/cpan
+ok 1058 # skip CPAN is upstream for cpan/CPANPLUS-Dist-Build/lib/CPANPLUS/Dist/Build.pm
+ok 1059 # skip CPAN is upstream for cpan/CPANPLUS-Dist-Build/lib/CPANPLUS/Dist/Build/Constants.pm
+ok 1060 # skip The pod of cpan/CPANPLUS/bin/cpan2dist is a duplicate of the pod for cpan/CPANPLUS/blib/script/cpan2dist
+ok 1061 # skip The pod of cpan/CPANPLUS/bin/cpanp is a duplicate of the pod for cpan/CPANPLUS/blib/script/cpanp
+ok 1062 # skip CPAN is upstream for cpan/CPANPLUS/blib/script/cpan2dist
+ok 1063 # skip CPAN is upstream for cpan/CPANPLUS/blib/script/cpanp
+ok 1064 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS.pm
+ok 1065 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Backend.pm
+ok 1066 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Backend/RV.pm
+ok 1067 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Config.pm
+ok 1068 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Configure.pm
+ok 1069 # skip cpan/CPANPLUS/lib/CPANPLUS/Configure/Setup.pm is not a pod
+ok 1070 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Dist.pm
+ok 1071 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Dist/Autobundle.pm
+ok 1072 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Dist/Base.pm
+ok 1073 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Dist/MM.pm
+ok 1074 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Dist/Sample.pm
+ok 1075 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Error.pm
+ok 1076 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/FAQ.pod
+ok 1077 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Hacking.pod
+ok 1078 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals.pm
+ok 1079 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Extract.pm
+ok 1080 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Fetch.pm
+ok 1081 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Report.pm
+ok 1082 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Search.pm
+ok 1083 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source.pm
+ok 1084 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source/Memory.pm
+ok 1085 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Source/SQLite.pm
+ok 1086 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Internals/Utils.pm
+ok 1087 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Module.pm
+ok 1088 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Module/Author.pm
+ok 1089 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Module/Author/Fake.pm
+ok 1090 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Module/Checksums.pm
+ok 1091 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Module/Fake.pm
+ok 1092 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Selfupdate.pm
+ok 1093 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell.pm
+ok 1094 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Classic.pm
+ok 1095 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default.pm
+ok 1096 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/CustomSource.pm
+ok 1097 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/HOWTO.pod
+ok 1098 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/Remote.pm
+ok 1099 # skip CPAN is upstream for cpan/CPANPLUS/lib/CPANPLUS/Shell/Default/Plugins/Source.pm
+ok 1100 # skip CPAN is upstream for cpan/Compress-Raw-Bzip2/lib/Compress/Raw/Bzip2.pm
+ok 1101 # skip CPAN is upstream for cpan/Compress-Raw-Bzip2/pod/FAQ.pod
+ok 1102 # skip CPAN is upstream for cpan/Compress-Raw-Zlib/lib/Compress/Raw/Zlib.pm
+ok 1103 # skip CPAN is upstream for cpan/Compress-Raw-Zlib/pod/FAQ.pod
+ok 1104 # skip CPAN is upstream for cpan/DB_File/DB_File.pm, but parsed for its interior links
+ok 1105 # skip CPAN is upstream for cpan/Devel-PPPort/HACKERS
+ok 1106 # skip CPAN is upstream for cpan/Devel-PPPort/PPPort.pm
+ok 1107 # skip CPAN is upstream for cpan/Devel-PPPort/devel/buildperl.pl
+ok 1108 # skip CPAN is upstream for cpan/Devel-PPPort/devel/regenerate
+ok 1109 # skip CPAN is upstream for cpan/Devel-PPPort/parts/inc/ppphdoc
+ok 1110 # skip CPAN is upstream for cpan/Devel-PPPort/soak
+ok 1111 # skip CPAN is upstream for cpan/Digest-MD5/MD5.pm
+ok 1112 # skip CPAN is upstream for cpan/Digest-SHA/blib/script/shasum
+ok 1113 # skip CPAN is upstream for cpan/Digest-SHA/lib/Digest/SHA.pm
+ok 1114 # skip The pod of cpan/Digest-SHA/shasum is a duplicate of the pod for cpan/Digest-SHA/blib/script/shasum
+ok 1115 # skip CPAN is upstream for cpan/Digest/Digest.pm
+ok 1116 # skip CPAN is upstream for cpan/Digest/Digest/base.pm
+ok 1117 # skip CPAN is upstream for cpan/Digest/Digest/file.pm
+ok 1118 # skip CPAN is upstream for cpan/Encode/Byte/Byte.pm
+ok 1119 # skip CPAN is upstream for cpan/Encode/CN/CN.pm
+ok 1120 # skip CPAN is upstream for cpan/Encode/EBCDIC/EBCDIC.pm
+ok 1121 # skip CPAN is upstream for cpan/Encode/Encode.pm, but parsed for its interior links
+ok 1122 # skip CPAN is upstream for cpan/Encode/Encode/_PM.e2x
+ok 1123 # skip CPAN is upstream for cpan/Encode/JP/JP.pm
+ok 1124 # skip CPAN is upstream for cpan/Encode/KR/KR.pm
+ok 1125 # skip CPAN is upstream for cpan/Encode/Symbol/Symbol.pm
+ok 1126 # skip CPAN is upstream for cpan/Encode/TW/TW.pm
+ok 1127 # skip CPAN is upstream for cpan/Encode/Unicode/Unicode.pm
+ok 1128 # skip The pod of cpan/Encode/bin/enc2xs is a duplicate of the pod for cpan/Encode/blib/script/enc2xs
+ok 1129 # skip The pod of cpan/Encode/bin/piconv is a duplicate of the pod for cpan/Encode/blib/script/piconv
+ok 1130 # skip CPAN is upstream for cpan/Encode/blib/script/enc2xs
+ok 1131 # skip CPAN is upstream for cpan/Encode/blib/script/piconv
+ok 1132 # skip CPAN is upstream for cpan/Encode/encoding.pm
+ok 1133 # skip CPAN is upstream for cpan/Encode/lib/Encode/Alias.pm
+ok 1134 # skip CPAN is upstream for cpan/Encode/lib/Encode/CJKConstants.pm
+ok 1135 # skip CPAN is upstream for cpan/Encode/lib/Encode/CN/HZ.pm
+ok 1136 # skip CPAN is upstream for cpan/Encode/lib/Encode/Config.pm
+ok 1137 # skip CPAN is upstream for cpan/Encode/lib/Encode/Encoder.pm
+ok 1138 # skip CPAN is upstream for cpan/Encode/lib/Encode/Encoding.pm
+ok 1139 # skip CPAN is upstream for cpan/Encode/lib/Encode/GSM0338.pm
+ok 1140 # skip CPAN is upstream for cpan/Encode/lib/Encode/Guess.pm
+ok 1141 # skip CPAN is upstream for cpan/Encode/lib/Encode/JP/H2Z.pm
+ok 1142 # skip CPAN is upstream for cpan/Encode/lib/Encode/JP/JIS7.pm
+ok 1143 # skip CPAN is upstream for cpan/Encode/lib/Encode/KR/2022_KR.pm
+ok 1144 # skip CPAN is upstream for cpan/Encode/lib/Encode/MIME/Header.pm
+ok 1145 # skip CPAN is upstream for cpan/Encode/lib/Encode/MIME/Name.pm
+ok 1146 # skip CPAN is upstream for cpan/Encode/lib/Encode/PerlIO.pod
+ok 1147 # skip CPAN is upstream for cpan/Encode/lib/Encode/Supported.pod
+ok 1148 # skip CPAN is upstream for cpan/Encode/lib/Encode/Unicode/UTF7.pm
+ok 1149 # skip CPAN is upstream for cpan/ExtUtils-Constant/lib/ExtUtils/Constant.pm
+ok 1150 # skip CPAN is upstream for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/Base.pm
+ok 1151 # skip CPAN is upstream for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/Utils.pm
+ok 1152 # skip CPAN is upstream for cpan/ExtUtils-Constant/lib/ExtUtils/Constant/XS.pm
+ok 1153 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/bin/instmodsh
+ok 1154 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Command/MM.pm
+ok 1155 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Liblist.pm
+ok 1156 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM.pm
+ok 1157 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_AIX.pm
+ok 1158 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Any.pm
+ok 1159 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_BeOS.pm
+ok 1160 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Cygwin.pm
+ok 1161 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_DOS.pm
+ok 1162 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Darwin.pm
+ok 1163 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_MacOS.pm
+ok 1164 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_NW5.pm
+ok 1165 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_OS2.pm
+ok 1166 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_QNX.pm
+ok 1167 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_UWIN.pm
+ok 1168 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm
+ok 1169 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_VMS.pm
+ok 1170 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_VOS.pm
+ok 1171 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Win32.pm
+ok 1172 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Win95.pm
+ok 1173 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MY.pm
+ok 1174 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker.pm
+ok 1175 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/Config.pm
+ok 1176 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/FAQ.pod
+ok 1177 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/Tutorial.pod
+ok 1178 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/YAML.pm
+ok 1179 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Mkbootstrap.pm
+ok 1180 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/Mksymlists.pm
+ok 1181 # skip CPAN is upstream for cpan/ExtUtils-MakeMaker/lib/ExtUtils/testlib.pm
+ok 1182 # skip CPAN is upstream for cpan/File-Fetch/lib/File/Fetch.pm
+ok 1183 # skip CPAN is upstream for cpan/File-Path/lib/File/Path.pm
+ok 1184 # skip CPAN is upstream for cpan/File-Temp/Temp.pm
+ok 1185 # skip CPAN is upstream for cpan/Filter-Util-Call/Call.pm
+ok 1186 # skip CPAN is upstream for cpan/Getopt-Long/lib/Getopt/Long.pm
+ok 1187 # skip CPAN is upstream for cpan/HTTP-Tiny/lib/HTTP/Tiny.pm
+ok 1188 # skip CPAN is upstream for cpan/IO-Compress/lib/Compress/Zlib.pm
+ok 1189 # skip CPAN is upstream for cpan/IO-Compress/lib/File/GlobMapper.pm
+ok 1190 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/Base.pm
+ok 1191 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/Bzip2.pm
+ok 1192 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/Deflate.pm
+ok 1193 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/Gzip.pm
+ok 1194 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/RawDeflate.pm
+ok 1195 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Compress/Zip.pm
+ok 1196 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/AnyInflate.pm
+ok 1197 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/AnyUncompress.pm
+ok 1198 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/Base.pm
+ok 1199 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/Bunzip2.pm
+ok 1200 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/Gunzip.pm
+ok 1201 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/Inflate.pm
+ok 1202 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/RawInflate.pm
+ok 1203 # skip CPAN is upstream for cpan/IO-Compress/lib/IO/Uncompress/Unzip.pm
+ok 1204 # skip CPAN is upstream for cpan/IO-Compress/pod/FAQ.pod
+ok 1205 # skip CPAN is upstream for cpan/IO-Zlib/Zlib.pm
+ok 1206 # skip CPAN is upstream for cpan/IPC-Cmd/lib/IPC/Cmd.pm
+ok 1207 # skip CPAN is upstream for cpan/IPC-SysV/lib/IPC/Msg.pm
+ok 1208 # skip CPAN is upstream for cpan/IPC-SysV/lib/IPC/Semaphore.pm
+ok 1209 # skip CPAN is upstream for cpan/IPC-SysV/lib/IPC/SharedMem.pm
+ok 1210 # skip CPAN is upstream for cpan/IPC-SysV/lib/IPC/SysV.pm
+ok 1211 # skip CPAN is upstream for cpan/JSON-PP/bin/json_pp
+ok 1212 # skip CPAN is upstream for cpan/JSON-PP/lib/JSON/PP.pm
+ok 1213 # skip CPAN is upstream for cpan/JSON-PP/lib/JSON/PP/Boolean.pm
+ok 1214 # skip CPAN is upstream for cpan/List-Util/XS.pp
+ok 1215 # skip CPAN is upstream for cpan/List-Util/lib/List/Util.pm
+ok 1216 # skip CPAN is upstream for cpan/List-Util/lib/List/Util/XS.pm
+ok 1217 # skip CPAN is upstream for cpan/List-Util/lib/Scalar/Util.pm, but parsed for its interior links
+ok 1218 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes.pod
+ok 1219 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/API.pod
+ok 1220 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Changes.pod
+ok 1221 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Constants.pod
+ok 1222 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Country.pod
+ok 1223 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Country_Codes.pm
+ok 1224 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Currency.pod
+ok 1225 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Currency_Codes.pm
+ok 1226 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/LangExt.pod
+ok 1227 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/LangExt_Codes.pm
+ok 1228 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/LangVar.pod
+ok 1229 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/LangVar_Codes.pm
+ok 1230 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Language.pod
+ok 1231 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Language_Codes.pm
+ok 1232 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Script.pod
+ok 1233 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Codes/Script_Codes.pm
+ok 1234 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Country.pod
+ok 1235 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Currency.pod
+ok 1236 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Language.pod
+ok 1237 # skip CPAN is upstream for cpan/Locale-Codes/lib/Locale/Script.pod
+ok 1238 # skip CPAN is upstream for cpan/Locale-Maketext-Simple/lib/Locale/Maketext/Simple.pm
+ok 1239 # skip CPAN is upstream for cpan/Log-Message-Simple/lib/Log/Message/Simple.pm
+ok 1240 # skip CPAN is upstream for cpan/Log-Message/lib/Log/Message.pm
+ok 1241 # skip CPAN is upstream for cpan/Log-Message/lib/Log/Message/Config.pm
+ok 1242 # skip CPAN is upstream for cpan/Log-Message/lib/Log/Message/Handlers.pm
+ok 1243 # skip CPAN is upstream for cpan/Log-Message/lib/Log/Message/Item.pm
+ok 1244 # skip CPAN is upstream for cpan/MIME-Base64/Base64.pm
+ok 1245 # skip CPAN is upstream for cpan/MIME-Base64/QuotedPrint.pm
+ok 1246 # skip CPAN is upstream for cpan/Math-Complex/lib/Math/Complex.pm
+ok 1247 # skip CPAN is upstream for cpan/Math-Complex/lib/Math/Trig.pm
+ok 1248 # skip CPAN is upstream for cpan/Memoize/Memoize.pm
+ok 1249 # skip CPAN is upstream for cpan/Memoize/Memoize/AnyDBM_File.pm
+ok 1250 # skip CPAN is upstream for cpan/Memoize/Memoize/Expire.pm
+ok 1251 # skip CPAN is upstream for cpan/Memoize/Memoize/ExpireFile.pm
+ok 1252 # skip CPAN is upstream for cpan/Memoize/Memoize/ExpireTest.pm
+ok 1253 # skip CPAN is upstream for cpan/Memoize/Memoize/NDBM_File.pm
+ok 1254 # skip CPAN is upstream for cpan/Memoize/Memoize/SDBM_File.pm
+ok 1255 # skip CPAN is upstream for cpan/Memoize/Memoize/Storable.pm
+ok 1256 # skip The pod of cpan/Module-Build/MB-3Ic_WQ6v/Simple/blib/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1257 # skip The pod of cpan/Module-Build/MB-3Ic_WQ6v/Simple/blib/script/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1258 # skip The pod of cpan/Module-Build/MB-3Ic_WQ6v/Simple/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1259 # skip The pod of cpan/Module-Build/MB-3Ic_WQ6v/Simple/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1260 # skip The pod of cpan/Module-Build/MB-G8ZKoGzq/Simple/blib/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1261 # skip The pod of cpan/Module-Build/MB-G8ZKoGzq/Simple/blib/script/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1262 # skip The pod of cpan/Module-Build/MB-G8ZKoGzq/Simple/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1263 # skip The pod of cpan/Module-Build/MB-G8ZKoGzq/Simple/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1264 # skip CPAN is upstream for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1265 # skip CPAN is upstream for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1266 # skip The pod of cpan/Module-Build/MB-aUxX9r2l/Simple/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1267 # skip The pod of cpan/Module-Build/MB-aUxX9r2l/Simple/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1268 # skip The pod of cpan/Module-Build/MB-snw4P8B8/Simple/blib/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1269 # skip The pod of cpan/Module-Build/MB-snw4P8B8/Simple/blib/script/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1270 # skip The pod of cpan/Module-Build/MB-snw4P8B8/Simple/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1271 # skip The pod of cpan/Module-Build/MB-snw4P8B8/Simple/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1272 # skip The pod of cpan/Module-Build/MB-ufme0u_Z/Simple/blib/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1273 # skip The pod of cpan/Module-Build/MB-ufme0u_Z/Simple/blib/script/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1274 # skip The pod of cpan/Module-Build/MB-ufme0u_Z/Simple/hello is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/script/hello
+ok 1275 # skip The pod of cpan/Module-Build/MB-ufme0u_Z/Simple/lib/Simple.pm is a duplicate of the pod for cpan/Module-Build/MB-aUxX9r2l/Simple/blib/lib/Simple.pm
+ok 1276 # skip CPAN is upstream for cpan/Module-Build/bin/config_data
+ok 1277 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build.pm
+ok 1278 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/API.pod
+ok 1279 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Authoring.pod
+ok 1280 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Base.pm
+ok 1281 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Bundling.pod
+ok 1282 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Compat.pm
+ok 1283 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/ConfigData.pm
+ok 1284 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Cookbook.pm
+ok 1285 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/ModuleInfo.pm
+ok 1286 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Notes.pm
+ok 1287 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/PPMMaker.pm
+ok 1288 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/Amiga.pm
+ok 1289 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/Default.pm
+ok 1290 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/EBCDIC.pm
+ok 1291 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/MPEiX.pm
+ok 1292 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/MacOS.pm
+ok 1293 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/RiscOS.pm
+ok 1294 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/Unix.pm
+ok 1295 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/VMS.pm
+ok 1296 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/VOS.pm
+ok 1297 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/Windows.pm
+ok 1298 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/aix.pm
+ok 1299 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/cygwin.pm
+ok 1300 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/darwin.pm
+ok 1301 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Platform/os2.pm
+ok 1302 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/Version.pm
+ok 1303 # skip CPAN is upstream for cpan/Module-Build/lib/Module/Build/YAML.pm
+ok 1304 # skip CPAN is upstream for cpan/Module-Build/lib/inc/latest.pm
+ok 1305 # skip CPAN is upstream for cpan/Module-Load-Conditional/lib/Module/Load/Conditional.pm
+ok 1306 # skip CPAN is upstream for cpan/Module-Load/lib/Module/Load.pm
+ok 1307 # skip CPAN is upstream for cpan/Module-Loaded/lib/Module/Loaded.pm
+ok 1308 # skip CPAN is upstream for cpan/Module-Metadata/lib/Module/Metadata.pm
+ok 1309 # skip CPAN is upstream for cpan/Module-Pluggable/lib/Devel/InnerPackage.pm
+ok 1310 # skip CPAN is upstream for cpan/Module-Pluggable/lib/Module/Pluggable.pm
+ok 1311 # skip CPAN is upstream for cpan/Module-Pluggable/lib/Module/Pluggable/Object.pm
+ok 1312 # skip CPAN is upstream for cpan/NEXT/lib/NEXT.pm
+ok 1313 # skip CPAN is upstream for cpan/Object-Accessor/lib/Object/Accessor.pm
+ok 1314 # skip CPAN is upstream for cpan/Package-Constants/lib/Package/Constants.pm
+ok 1315 # skip CPAN is upstream for cpan/Params-Check/lib/Params/Check.pm
+ok 1316 # skip CPAN is upstream for cpan/Parse-CPAN-Meta/lib/Parse/CPAN/Meta.pm
+ok 1317 # skip CPAN is upstream for cpan/Perl-OSType/lib/Perl/OSType.pm
+ok 1318 # skip CPAN is upstream for cpan/PerlIO-via-QuotedPrint/lib/PerlIO/via/QuotedPrint.pm
+ok 1319 # skip CPAN is upstream for cpan/Pod-Escapes/lib/Pod/Escapes.pm
+ok 1320 # skip CPAN is upstream for cpan/Pod-LaTeX/blib/script/pod2latex
+ok 1321 # skip CPAN is upstream for cpan/Pod-LaTeX/lib/Pod/LaTeX.pm
+ok 1322 # skip The pod of cpan/Pod-LaTeX/pod2latex is a duplicate of the pod for cpan/Pod-LaTeX/blib/script/pod2latex
+ok 1323 # skip CPAN is upstream for cpan/Pod-Parser/blib/script/pod2usage
+ok 1324 # skip CPAN is upstream for cpan/Pod-Parser/blib/script/podchecker
+ok 1325 # skip CPAN is upstream for cpan/Pod-Parser/blib/script/podselect
+ok 1326 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/Checker.pm
+ok 1327 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/Find.pm
+ok 1328 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/InputObjects.pm
+ok 1329 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/ParseUtils.pm
+ok 1330 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/Parser.pm
+ok 1331 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/PlainText.pm
+ok 1332 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/Select.pm
+ok 1333 # skip CPAN is upstream for cpan/Pod-Parser/lib/Pod/Usage.pm
+ok 1334 # skip The pod of cpan/Pod-Parser/pod2usage is a duplicate of the pod for cpan/Pod-Parser/blib/script/pod2usage
+ok 1335 # skip The pod of cpan/Pod-Parser/podchecker is a duplicate of the pod for cpan/Pod-Parser/blib/script/podchecker
+ok 1336 # skip The pod of cpan/Pod-Parser/podselect is a duplicate of the pod for cpan/Pod-Parser/blib/script/podselect
+ok 1337 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple.pod
+ok 1338 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Checker.pm
+ok 1339 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Debug.pm
+ok 1340 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/DumpAsText.pm
+ok 1341 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/DumpAsXML.pm
+ok 1342 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/HTML.pm
+ok 1343 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/HTMLBatch.pm
+ok 1344 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/LinkSection.pm
+ok 1345 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Methody.pm
+ok 1346 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/PullParser.pm
+ok 1347 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/PullParserEndToken.pm
+ok 1348 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/PullParserStartToken.pm
+ok 1349 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/PullParserTextToken.pm
+ok 1350 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/PullParserToken.pm
+ok 1351 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/RTF.pm
+ok 1352 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Search.pm
+ok 1353 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/SimpleTree.pm
+ok 1354 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Subclassing.pod
+ok 1355 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/Text.pm
+ok 1356 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/TextContent.pm
+ok 1357 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/XHTML.pm
+ok 1358 # skip CPAN is upstream for cpan/Pod-Simple/lib/Pod/Simple/XMLOutStream.pm
+ok 1359 # skip CPAN is upstream for cpan/Sys-Syslog/Syslog.pm
+ok 1360 # skip CPAN is upstream for cpan/Sys-Syslog/win32/Win32.pm
+ok 1361 # skip The pod of cpan/Sys-Syslog/win32/compile.pl is a duplicate of the pod for cpan/Sys-Syslog/win32/Win32.pm
+ok 1362 # skip CPAN is upstream for cpan/Term-ANSIColor/ANSIColor.pm
+ok 1363 # skip CPAN is upstream for cpan/Term-Cap/Cap.pm
+ok 1364 # skip CPAN is upstream for cpan/Term-UI/lib/Term/UI.pm
+ok 1365 # skip CPAN is upstream for cpan/Term-UI/lib/Term/UI/History.pm
+ok 1366 # skip CPAN is upstream for cpan/Test-Harness/bin/prove
+ok 1367 # skip CPAN is upstream for cpan/Test-Harness/lib/App/Prove.pm, but parsed for its interior links
+ok 1368 # skip CPAN is upstream for cpan/Test-Harness/lib/App/Prove/State.pm
+ok 1369 # skip CPAN is upstream for cpan/Test-Harness/lib/App/Prove/State/Result.pm
+ok 1370 # skip CPAN is upstream for cpan/Test-Harness/lib/App/Prove/State/Result/Test.pm
+ok 1371 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Base.pm
+ok 1372 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Base.pm
+ok 1373 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Color.pm
+ok 1374 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Console.pm
+ok 1375 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Console/ParallelSession.pm
+ok 1376 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Console/Session.pm
+ok 1377 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/File.pm
+ok 1378 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/File/Session.pm
+ok 1379 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Formatter/Session.pm
+ok 1380 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Harness.pm, but parsed for its interior links
+ok 1381 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Harness/Beyond.pod
+ok 1382 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Object.pm
+ok 1383 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser.pm, but parsed for its interior links
+ok 1384 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Aggregator.pm
+ok 1385 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Grammar.pm
+ok 1386 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Iterator.pm
+ok 1387 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Iterator/Array.pm
+ok 1388 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Iterator/Process.pm
+ok 1389 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Iterator/Stream.pm
+ok 1390 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/IteratorFactory.pm, but parsed for its interior links
+ok 1391 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Multiplexer.pm
+ok 1392 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result.pm
+ok 1393 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Bailout.pm
+ok 1394 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Comment.pm
+ok 1395 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Plan.pm
+ok 1396 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Pragma.pm
+ok 1397 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Test.pm
+ok 1398 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Unknown.pm
+ok 1399 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/Version.pm
+ok 1400 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Result/YAML.pm
+ok 1401 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/ResultFactory.pm
+ok 1402 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Scheduler.pm
+ok 1403 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Scheduler/Job.pm
+ok 1404 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Scheduler/Spinner.pm
+ok 1405 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Source.pm, but parsed for its interior links
+ok 1406 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler.pm
+ok 1407 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Executable.pm
+ok 1408 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/File.pm
+ok 1409 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Handle.pm
+ok 1410 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/Perl.pm
+ok 1411 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/SourceHandler/RawTAP.pm
+ok 1412 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/Utils.pm
+ok 1413 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/YAMLish/Reader.pm
+ok 1414 # skip CPAN is upstream for cpan/Test-Harness/lib/TAP/Parser/YAMLish/Writer.pm
+ok 1415 # skip CPAN is upstream for cpan/Test-Harness/lib/Test/Harness.pm
+ok 1416 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Builder.pm
+ok 1417 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Builder/Module.pm
+ok 1418 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Builder/Tester.pm
+ok 1419 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Builder/Tester/Color.pm
+ok 1420 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/More.pm
+ok 1421 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Simple.pm
+ok 1422 # skip CPAN is upstream for cpan/Test-Simple/lib/Test/Tutorial.pod
+ok 1423 # skip CPAN is upstream for cpan/Test/lib/Test.pm
+ok 1424 # skip CPAN is upstream for cpan/Text-Balanced/lib/Text/Balanced.pm
+ok 1425 # skip CPAN is upstream for cpan/Text-ParseWords/lib/Text/ParseWords.pm
+ok 1426 # skip CPAN is upstream for cpan/Text-Soundex/Soundex.pm
+ok 1427 # skip CPAN is upstream for cpan/Text-Tabs/lib/Text/Tabs.pm
+ok 1428 # skip CPAN is upstream for cpan/Text-Tabs/lib/Text/Wrap.pm
+ok 1429 # skip CPAN is upstream for cpan/Tie-File/lib/Tie/File.pm
+ok 1430 # skip CPAN is upstream for cpan/Tie-RefHash/lib/Tie/RefHash.pm
+ok 1431 # skip CPAN is upstream for cpan/Time-HiRes/HiRes.pm
+ok 1432 # skip CPAN is upstream for cpan/Time-Local/lib/Time/Local.pm
+ok 1433 # skip CPAN is upstream for cpan/Time-Piece/Piece.pm
+ok 1434 # skip CPAN is upstream for cpan/Time-Piece/Seconds.pm
+ok 1435 # skip CPAN is upstream for cpan/Unicode-Collate/Collate.pm
+ok 1436 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/Big5.pm
+ok 1437 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/GB2312.pm
+ok 1438 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/JISX0208.pm
+ok 1439 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/Korean.pm
+ok 1440 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/Pinyin.pm
+ok 1441 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/CJK/Stroke.pm
+ok 1442 # skip CPAN is upstream for cpan/Unicode-Collate/Collate/Locale.pm
+ok 1443 # skip CPAN is upstream for cpan/Unicode-Normalize/Normalize.pm
+ok 1444 # skip CPAN is upstream for cpan/Version-Requirements/lib/Version/Requirements.pm
+ok 1445 # skip CPAN is upstream for cpan/Win32/Win32.pm
+ok 1446 # skip CPAN is upstream for cpan/Win32API-File/ExtUtils/Myconst2perl.pm
+ok 1447 # skip CPAN is upstream for cpan/Win32API-File/File.pm
+ok 1448 # skip CPAN is upstream for cpan/autodie/lib/Fatal.pm
+ok 1449 # skip CPAN is upstream for cpan/autodie/lib/autodie.pm
+ok 1450 # skip CPAN is upstream for cpan/autodie/lib/autodie/exception.pm
+ok 1451 # skip CPAN is upstream for cpan/autodie/lib/autodie/exception/system.pm
+ok 1452 # skip CPAN is upstream for cpan/autodie/lib/autodie/hints.pm
+ok 1453 # skip CPAN is upstream for cpan/encoding-warnings/lib/encoding/warnings.pm
+ok 1454 # skip CPAN is upstream for cpan/libnet/Net/Cmd.pm
+ok 1455 # skip CPAN is upstream for cpan/libnet/Net/Config.pm
+ok 1456 # skip CPAN is upstream for cpan/libnet/Net/Domain.pm
+ok 1457 # skip CPAN is upstream for cpan/libnet/Net/FTP.pm
+ok 1458 # skip CPAN is upstream for cpan/libnet/Net/NNTP.pm
+ok 1459 # skip CPAN is upstream for cpan/libnet/Net/Netrc.pm
+ok 1460 # skip CPAN is upstream for cpan/libnet/Net/POP3.pm
+ok 1461 # skip CPAN is upstream for cpan/libnet/Net/SMTP.pm
+ok 1462 # skip CPAN is upstream for cpan/libnet/Net/Time.pm
+ok 1463 # skip CPAN is upstream for cpan/libnet/Net/libnetFAQ.pod
+ok 1464 # skip CPAN is upstream for cpan/libnet/demos/smtp.self
+ok 1465 # skip CPAN is upstream for cpan/parent/lib/parent.pm
+ok 1466 # skip CPAN is upstream for cpan/podlators/blib/script/pod2man
+ok 1467 # skip CPAN is upstream for cpan/podlators/blib/script/pod2text
+ok 1468 # skip CPAN is upstream for cpan/podlators/lib/Pod/Man.pm
+ok 1469 # skip CPAN is upstream for cpan/podlators/lib/Pod/ParseLink.pm
+ok 1470 # skip CPAN is upstream for cpan/podlators/lib/Pod/Text.pm
+ok 1471 # skip CPAN is upstream for cpan/podlators/lib/Pod/Text/Color.pm
+ok 1472 # skip The pod of cpan/podlators/lib/Pod/Text/Overstrike.pm is a duplicate of the pod for lib/Pod/Text/Overstrike.pm
+ok 1473 # skip CPAN is upstream for cpan/podlators/lib/Pod/Text/Termcap.pm
+ok 1474 # skip The pod of cpan/podlators/pod2man is a duplicate of the pod for cpan/podlators/blib/script/pod2man
+ok 1475 # skip The pod of cpan/podlators/pod2text is a duplicate of the pod for cpan/podlators/blib/script/pod2text
+# 
+# HOW TO GET THIS .t TO PASS
+# 
+# There were 7 files that had new potential problems identified.
+# Some of them may be real, and some of them may be because this program
+# isn't as smart as it likes to think it is.  You can teach this program
+# to ignore the issues it has identified, and hence pass, by doing the
+# following:
+# 
+# 1) If a problem is about a link to an unknown module or man page that
+#    you know exists, re-run the command something like:
+#       ./perl -I../lib porting/podcheck.t --add_link MODULE man_page ...
+#    (MODULEs should look like Foo::Bar, and man_pages should look like
+#    bar(3c); don't do this for a module or man page that you aren't sure
+#    about; instead treat as another type of issue and follow the
+#    instructions below.)
+# 
+# 2) For other issues, decide if each should be fixed now or not.  Fix the
+#    ones you decided to, and rerun this test to verify that the fixes
+#    worked.
+# 
+# 3) If there remain potential problems that you don't plan to fix right
+#    now (or aren't really problems),
+#    run this test script by hand, using the following formula (on
+#    Un*x-like machines):
+#         cd t
+#         ./perl -I../lib porting/podcheck.t --regen
+# 
+#    That should cause all current potential problems to be accepted by
+#    the program, so that the next time it runs, they won't be flagged.
+#    For a few files, such as perltoc, certain issues will always be
+#    expected, and more of the same will be added over time.  For those,
+#    before you do the regen, you can edit
+#    /home/marc/programming/gsoc/perl/t/porting/known_pod_issues.dat
+#    and find the entry for the module's file and specific error message,
+#    and change the count of known potential problems to -1.
