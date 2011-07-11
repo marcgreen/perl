@@ -190,6 +190,10 @@ ext/file-glob/glob.pm	Verbatim line length including indents exceeds 80 by	12
 ext/hash-util-fieldhash/lib/hash/util/fieldhash.pm	Verbatim line length including indents exceeds 80 by	2
 ext/i18n-langinfo/langinfo.pm	Verbatim line length including indents exceeds 80 by	1
 ext/opcode/opcode.pm	Verbatim line length including indents exceeds 80 by	7
+ext/pod-html/test.lib/perlpodspec-copy.pod	Verbatim line length including indents exceeds 80 by	8
+ext/pod-html/test.lib/perlvar-copy.pod	? Should you be using L<...> instead of	3
+ext/pod-html/test.lib/perlvar-copy.pod	Apparent broken link	2
+ext/pod-html/test.lib/perlvar-copy.pod	Verbatim line length including indents exceeds 80 by	6
 ext/posix/lib/posix.pod	Verbatim line length including indents exceeds 80 by	28
 ext/re/re.pm	Verbatim line length including indents exceeds 80 by	6
 ext/vms-dclsym/dclsym.pm	? Should you be using L<...> instead of	1
